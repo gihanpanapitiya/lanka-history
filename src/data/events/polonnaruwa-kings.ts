@@ -341,7 +341,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     date: 'r. 1215–1236 CE',
     period: 'polonnaruwa-kingdom',
     summary:
-      'Invades from Kalinga with a large army, blinds Parakrama Pandu and rules Rajarata harshly; the Sinhalese court withdraws to Dambadeniya.',
+      'Invades from Kalinga with a large army, blinds Parakrama Pandu and rules Rajarata harshly; the Sinhalese court withdraws to Dambadeniya. Driven out by Parakramabahu II, c. 1236.',
     succeeds: 'king-parakrama-pandu-ii',
     causes: ['magha'],
   },

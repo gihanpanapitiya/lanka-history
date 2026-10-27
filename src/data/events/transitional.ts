@@ -14,6 +14,17 @@ export const transitionalEvents: HistEvent[] = [
     tags: ['political'],
   },
   {
+    id: 'magha-expelled',
+    title: 'Parakramabahu II drives out Kalinga Magha',
+    year: 1236,
+    date: 'c. 1236',
+    period: 'dambadeniya-kurunegala',
+    summary:
+      'From Dambadeniya, Parakramabahu II’s armies defeat Magha and retake Rajarata, ending two decades of Kalinga rule. Some historians date Magha’s final expulsion as late as the 1250s.',
+    causes: ['king-parakramabahu-ii', 'dambadeniya'],
+    tags: ['military', 'political'],
+  },
+  {
     id: 'chandrabhanu',
     title: 'Chandrabhanu’s Javaka invasions',
     year: 1247,
