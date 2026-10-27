@@ -22,7 +22,7 @@ export const periods: Period[] = [
     start: -543,
     end: 1017,
     summary: 'Fifteen centuries of kingship centred on Anuradhapura: Buddhism, great stupas and tank irrigation.',
-    color: '#c58b00',
+    color: '#3a86c8',
   },
   { id: 'early-anuradhapura', parent: 'anuradhapura', name: 'Early Anuradhapura', start: -543, end: -137, summary: 'Vijaya to Dutugemunu; the arrival of Buddhism.' },
   { id: 'middle-anuradhapura', parent: 'anuradhapura', name: 'Middle Anuradhapura', start: -137, end: 455, summary: 'Monastic rivalry, the written canon and great reservoirs.' },
