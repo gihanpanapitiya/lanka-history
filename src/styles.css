@@ -1,12 +1,12 @@
 /* Always light: a warm paper background, with cards a shade lighter so they lift off the page. */
 :root {
   color-scheme: light;
-  --bg: #e9e5da;
+  --bg: #e2ddd0;
   --panel: #f4f1e8;
   --text: #1f1d1a;
   --muted: #6b665e;
-  --border: #d3cec1;
-  --hover: #dfdace;
+  --border: #cdc7b8;
+  --hover: #d8d2c4;
   --edge: #9a9386;
   --edge-on: #1f1d1a;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
