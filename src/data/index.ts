@@ -8,6 +8,7 @@ import { polonnaruwaReigns } from './events/polonnaruwa-kings.ts';
 import { transitionalEvents } from './events/transitional.ts';
 import { transitionalReigns } from './events/transitional-kings.ts';
 import { colonialEvents } from './events/colonial.ts';
+import { colonialReigns } from './events/colonial-kings.ts';
 
 export type { HistEvent, Period, Tag, Year } from './types.ts';
 export { periods };
@@ -21,6 +22,7 @@ const allEvents: HistEvent[] = [
   ...transitionalEvents,
   ...transitionalReigns,
   ...colonialEvents,
+  ...colonialReigns,
 ];
 
 export const eventById = new Map(allEvents.map((e) => [e.id, e]));

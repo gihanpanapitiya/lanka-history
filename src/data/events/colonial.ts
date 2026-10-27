@@ -19,7 +19,6 @@ export const colonialEvents: HistEvent[] = [
     date: '1517–1518',
     period: 'portuguese',
     summary: 'The Portuguese build a fort at Colombo and secure cinnamon tribute from the king of Kotte.',
-    causes: ['almeida'],
     tags: ['economic', 'military'],
   },
   {
@@ -125,7 +124,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Kandy and the VOC ally to expel the Portuguese; the Dutch are to be paid in cinnamon and are to hand back captured forts.',
-    causes: ['randeniwela', 'voc-founded'],
+    causes: ['randeniwela'],
     tags: ['political', 'military'],
   },
   {
@@ -180,7 +179,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Dutch administration brings Roman-Dutch civil law (still the basis of Sri Lankan common law) and codifies the Tamil customary law of Jaffna.',
-    causes: ['dutch-keep-coast'],
     tags: ['political', 'social'],
   },
   {
@@ -223,7 +221,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'The Dutch capture Kandy; the treaty gives them the whole coastline and cuts Kandy off from the sea entirely.',
-    causes: ['dutch-keep-coast'],
     tags: ['military', 'political'],
   },
   {
@@ -276,7 +273,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Sri Vikrama Rajasinha’s brutal execution of the family of the disgraced chief Ehelepola drives the nobility to seek British help.',
-    causes: ['nayakkar'],
     tags: ['political'],
   },
   {
@@ -309,7 +305,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'The island is unified under a single administration, rajakariya (compulsory service) is abolished, and Legislative and Executive Councils are created.',
-    causes: ['uva-wellassa', 'crown-colony'],
     tags: ['political', 'economic'],
   },
   {
@@ -394,7 +389,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Migettuwatte Gunananda Thera’s public victory over Christian missionaries energises a Buddhist revival and draws international attention.',
-    causes: ['missionary-education'],
     tags: ['religious'],
   },
   {
@@ -427,7 +421,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Sinhalese–Muslim riots are met with heavy-handed martial law; the arrest of leaders such as D. S. Senanayake galvanises the elite.',
-    causes: ['anagarika-dharmapala'],
     tags: ['social', 'political'],
   },
   {
@@ -489,7 +482,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Rewarded for wartime cooperation, Ceylon’s leaders negotiate a Westminster-style constitution.',
-    causes: ['donoughmore', 'ww2'],
+    causes: ['ww2'],
     tags: ['political'],
   },
   {
