@@ -14,17 +14,6 @@ export const transitionalEvents: HistEvent[] = [
     tags: ['political'],
   },
   {
-    id: 'jaffna-kingdom',
-    title: 'Jaffna Kingdom emerges',
-    year: 1260,
-    date: '13th century',
-    period: 'dambadeniya-kurunegala',
-    summary:
-      'A Tamil kingdom under the Aryacakravarti dynasty takes shape in the north, controlling the pearl fisheries and the Palk Strait trade.',
-    causes: ['magha', 'dry-zone-collapse'],
-    tags: ['political'],
-  },
-  {
     id: 'chandrabhanu',
     title: 'Chandrabhanu’s Javaka invasions',
     year: 1247,
@@ -42,7 +31,7 @@ export const transitionalEvents: HistEvent[] = [
     date: '1272',
     period: 'dambadeniya-kurunegala',
     summary: 'Bhuvanekabahu I moves the capital and the Tooth Relic to a fortified rock at Yapahuwa.',
-    causes: ['chandrabhanu', 'jaffna-kingdom'],
+    causes: ['chandrabhanu'],
     tags: ['political', 'military'],
   },
   {
@@ -87,19 +76,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       "The Moroccan traveller is received by the Aryacakravarti king of Jaffna and climbs Adam's Peak, describing a cosmopolitan Indian Ocean trading island.",
-    causes: ['jaffna-kingdom'],
     tags: ['external', 'cultural'],
-  },
-  {
-    id: 'jaffna-expansion',
-    title: 'Jaffna kingdom expands south',
-    year: 1350,
-    date: 'mid-14th century',
-    period: 'gampola-kotte',
-    summary:
-      'At its height, Jaffna collects tribute from much of the west coast and threatens Gampola.',
-    causes: ['jaffna-kingdom', 'gampola'],
-    tags: ['political', 'military'],
   },
   {
     id: 'kotte-fortress',
@@ -109,7 +86,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Minister Nissanka Alakeshvara builds a fortress at Kotte, near Colombo, and defeats the Jaffna army.',
-    causes: ['jaffna-expansion', 'gampola'],
+    causes: ['gampola'],
     tags: ['military'],
   },
   {
@@ -141,7 +118,7 @@ export const transitionalEvents: HistEvent[] = [
     date: 'c. 1450',
     period: 'gampola-kotte',
     summary: 'Kotte’s army takes Jaffna; for 17 years the island is united under one crown.',
-    causes: ['parakramabahu-vi', 'jaffna-expansion'],
+    causes: ['parakramabahu-vi'],
     tags: ['military', 'political'],
   },
   {

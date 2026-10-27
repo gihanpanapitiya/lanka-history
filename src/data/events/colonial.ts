@@ -100,16 +100,6 @@ export const colonialEvents: HistEvent[] = [
     tags: ['military'],
   },
   {
-    id: 'jaffna-falls',
-    title: 'Portuguese annex Jaffna',
-    year: 1619,
-    date: '1619',
-    period: 'portuguese',
-    summary: 'After decades of intervention, the Portuguese depose Cankili II and annex the Jaffna kingdom.',
-    causes: ['colombo-fort', 'pbvi-death'],
-    tags: ['military', 'political'],
-  },
-  {
     id: 'randeniwela',
     title: 'Battle of Randeniwela',
     year: 1630,
@@ -156,7 +146,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1658',
     period: 'portuguese',
     summary: 'The last Portuguese stronghold falls to the Dutch.',
-    causes: ['dutch-take-colombo', 'jaffna-falls'],
+    causes: ['dutch-take-colombo'],
     tags: ['military', 'political'],
   },
 
