@@ -4,6 +4,7 @@ import { prehistoricEvents } from './events/prehistoric.ts';
 import { anuradhapuraEvents } from './events/anuradhapura.ts';
 import { anuradhapuraReigns } from './events/anuradhapura-kings.ts';
 import { polonnaruwaEvents } from './events/polonnaruwa.ts';
+import { polonnaruwaReigns } from './events/polonnaruwa-kings.ts';
 import { transitionalEvents } from './events/transitional.ts';
 import { colonialEvents } from './events/colonial.ts';
 
@@ -15,6 +16,7 @@ const allEvents: HistEvent[] = [
   ...anuradhapuraEvents,
   ...anuradhapuraReigns,
   ...polonnaruwaEvents,
+  ...polonnaruwaReigns,
   ...transitionalEvents,
   ...colonialEvents,
 ];
