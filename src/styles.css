@@ -1,29 +1,19 @@
+/* Always light: a warm paper background, with cards a shade lighter so they lift off the page. */
 :root {
-  --bg: #f7f5f0;
-  --panel: #ffffff;
+  color-scheme: light;
+  --bg: #e9e5da;
+  --panel: #f4f1e8;
   --text: #1f1d1a;
   --muted: #6b665e;
-  --border: #e2ddd3;
-  --hover: #f0ece4;
-  --edge: #a39c90;
+  --border: #d3cec1;
+  --hover: #dfdace;
+  --edge: #9a9386;
   --edge-on: #1f1d1a;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
   color: var(--text);
   background: var(--bg);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161514;
-    --panel: #1f1e1c;
-    --text: #ece8e1;
-    --muted: #9c968c;
-    --border: #34322e;
-    --hover: #2a2926;
-    --edge: #6a655d;
-    --edge-on: #f4efe6;
-  }
-}
 
 * {
   box-sizing: border-box;
