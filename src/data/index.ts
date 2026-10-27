@@ -6,6 +6,7 @@ import { anuradhapuraReigns } from './events/anuradhapura-kings.ts';
 import { polonnaruwaEvents } from './events/polonnaruwa.ts';
 import { polonnaruwaReigns } from './events/polonnaruwa-kings.ts';
 import { transitionalEvents } from './events/transitional.ts';
+import { transitionalReigns } from './events/transitional-kings.ts';
 import { colonialEvents } from './events/colonial.ts';
 
 export type { HistEvent, Period, Tag, Year } from './types.ts';
@@ -18,6 +19,7 @@ const allEvents: HistEvent[] = [
   ...polonnaruwaEvents,
   ...polonnaruwaReigns,
   ...transitionalEvents,
+  ...transitionalReigns,
   ...colonialEvents,
 ];
 

@@ -30,7 +30,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Three princes kill their father Vijayabahu VI and divide his realm into Kotte, Sitawaka and Raigama.',
-    causes: ['pbvi-death'],
     tags: ['political'],
   },
   {
@@ -96,7 +95,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Vimaladharmasuriya I of Kandy destroys a Portuguese army trying to install Dona Catherina on the Kandyan throne, then marries her himself.',
-    causes: ['rajasinghe-i', 'kandy-autonomy'],
+    causes: ['rajasinghe-i'],
     tags: ['military'],
   },
   {
@@ -192,7 +191,6 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'King Vira Narendrasinha dies without a royal heir; the throne passes to his Madurai Nayak queen’s brother, Sri Vijaya Rajasinha.',
-    causes: ['kandy-autonomy'],
     tags: ['political'],
   },
   {

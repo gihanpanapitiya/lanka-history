@@ -31,7 +31,6 @@ export const transitionalEvents: HistEvent[] = [
     date: '1272',
     period: 'dambadeniya-kurunegala',
     summary: 'Bhuvanekabahu I moves the capital and the Tooth Relic to a fortified rock at Yapahuwa.',
-    causes: ['chandrabhanu'],
     tags: ['political', 'military'],
   },
   {
@@ -52,7 +51,6 @@ export const transitionalEvents: HistEvent[] = [
     date: '1293',
     period: 'dambadeniya-kurunegala',
     summary: 'After Yapahuwa’s fall, the court relocates again, to Kurunegala.',
-    causes: ['relic-seized'],
     tags: ['political'],
   },
 
@@ -65,7 +63,6 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Bhuvanekabahu IV moves into the hill country. Real power increasingly lies with ministers such as the Alakeshvara family.',
-    causes: ['kurunegala'],
     tags: ['political'],
   },
   {
@@ -86,7 +83,6 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Minister Nissanka Alakeshvara builds a fortress at Kotte, near Colombo, and defeats the Jaffna army.',
-    causes: ['gampola'],
     tags: ['military'],
   },
   {
@@ -97,7 +93,6 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'The Ming admiral’s fleet clashes with Vira Alakeshvara and takes him captive to China. The Galle trilingual inscription (1409) records an earlier visit.',
-    causes: ['kotte-fortress'],
     tags: ['external', 'military'],
   },
   {
@@ -108,7 +103,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Filling the vacuum left by the Alakeshvaras, Parakramabahu VI makes Kotte the capital of the last king to rule the whole island.',
-    causes: ['zheng-he', 'kotte-fortress'],
+    causes: ['zheng-he'],
     tags: ['political'],
   },
   {
