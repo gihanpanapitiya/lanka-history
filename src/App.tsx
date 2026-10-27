@@ -16,9 +16,12 @@ import {
   eventById,
   effectsOf,
   events,
+  eventsDuring,
+  isReign,
   periodPath,
   periodRange,
   periodById,
+  successorOf,
   type Tag,
 } from './data/index.ts';
 import { buildOverview, buildScope, scopeExists, scopeForEvent, EVENT_W, EVENT_H, type LayoutMode } from './graph.ts';
@@ -56,6 +59,7 @@ export function App() {
   const [view, setView] = useState<ViewState>(readHash);
   const [layout, setLayout] = useState<LayoutMode>('chronological');
   const [showContext, setShowContext] = useState(true);
+  const [showReigns, setShowReigns] = useState(true);
   const [trace, setTrace] = useState<TraceMode>('chain');
   const [tag, setTag] = useState<Tag | null>(null);
   // Bumped when the graph should pan to the selected event (picked from search or the detail panel).
@@ -82,6 +86,13 @@ export function App() {
           ? new Set([...causalClosure(view.event, 'causes'), ...causalClosure(view.event, 'effects')])
           : new Set([...(eventById.get(view.event)?.causes ?? []), ...(effectsOf.get(view.event) ?? [])]);
       ids.add(view.event);
+      const e = eventById.get(view.event);
+      if (e && isReign(e)) {
+        if (e.succeeds) ids.add(e.succeeds);
+        const next = successorOf.get(e.id);
+        if (next) ids.add(next);
+        for (const x of eventsDuring(e)) ids.add(x.id);
+      }
       return ids;
     }
     if (tag) return new Set(events.filter((e) => e.tags?.includes(tag)).map((e) => e.id));
@@ -89,8 +100,8 @@ export function App() {
   }, [view.event, trace, tag]);
 
   const graph = useMemo(
-    () => (view.scope ? buildScope(view.scope, layout, showContext, { selected: view.event, focus }) : buildOverview()),
-    [view.scope, view.event, layout, showContext, focus],
+    () => (view.scope ? buildScope(view.scope, layout, showContext, showReigns, { selected: view.event, focus }) : buildOverview()),
+    [view.scope, view.event, layout, showContext, showReigns, focus],
   );
 
   const onNodeClick: NodeMouseHandler<Node> = useCallback(
@@ -171,13 +182,17 @@ export function App() {
                 <input type="checkbox" checked={showContext} onChange={(e) => setShowContext(e.target.checked)} />
                 Show links to other periods
               </label>
+              <label className="check">
+                <input type="checkbox" checked={showReigns} onChange={(e) => setShowReigns(e.target.checked)} />
+                Show rulers
+              </label>
             </div>
           )}
         </div>
 
         <div className="canvas">
           <ReactFlow
-            key={`${view.scope}|${layout}|${showContext}`}
+            key={`${view.scope}|${layout}|${showContext}|${showReigns}`}
             nodes={graph.nodes}
             edges={graph.edges}
             nodeTypes={nodeTypes}
@@ -204,7 +219,7 @@ export function App() {
                 bgColor="var(--panel)"
                 maskColor="rgb(127 127 127 / 0.15)"
                 style={{ width: 220, height: 130 }}
-                nodeColor={(n) => (n.data.color as string) ?? '#888'}
+                nodeColor={(n) => (n.type === 'band' ? 'transparent' : ((n.data.color as string) ?? '#888'))}
               />
             )}
             <ViewportController nodes={graph.nodes} overview={!view.scope} eventId={view.event} tick={focusTick} />
@@ -228,6 +243,12 @@ export function App() {
       )}
     </div>
   );
+}
+
+/** Flow coordinates of a node; child nodes (events inside a reign band) are positioned relative to their parent. */
+function absolutePosition(n: Node, nodes: Node[]): { x: number; y: number } {
+  const parent = n.parentId ? nodes.find((x) => x.id === n.parentId) : undefined;
+  return parent ? { x: parent.position.x + n.position.x, y: parent.position.y + n.position.y } : n.position;
 }
 
 /**
@@ -254,7 +275,9 @@ function ViewportController({
   const centerOn = useCallback(
     (id: string, duration: number) => {
       const n = nodes.find((x) => x.id === id);
-      if (n) rf.setCenter(n.position.x + EVENT_W / 2, n.position.y + EVENT_H / 2, { zoom: 0.9, duration });
+      if (!n) return;
+      const p = absolutePosition(n, nodes);
+      rf.setCenter(p.x + EVENT_W / 2, p.y + EVENT_H / 2, { zoom: 0.9, duration });
     },
     [nodes, rf],
   );
@@ -265,8 +288,9 @@ function ViewportController({
     if (overview) return; // handled by the fitView prop, which waits for nodes to be measured
     if (eventId && nodes.some((n) => n.id === eventId)) return centerOn(eventId, 0);
 
-    const xs = nodes.map((n) => n.position.x);
-    const ys = nodes.map((n) => n.position.y);
+    const cards = nodes.filter((n) => n.type !== 'band').map((n) => absolutePosition(n, nodes));
+    const xs = cards.map((p) => p.x);
+    const ys = cards.map((p) => p.y);
     const minX = Math.min(...xs);
     const minY = Math.min(...ys);
     const bw = Math.max(...xs) + EVENT_W - minX;

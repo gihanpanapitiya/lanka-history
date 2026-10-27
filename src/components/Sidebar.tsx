@@ -4,7 +4,9 @@ import {
   displayDate,
   events,
   eventsIn,
+  isReign,
   periodColor,
+  eventColor,
   periodPath,
   periodRange,
   topPeriods,
@@ -52,7 +54,7 @@ export function Sidebar({ scope, onScope, onPickEvent }: Props) {
                   onPickEvent(e.id);
                   setQuery('');
                 }}
-                style={{ ['--accent' as string]: periodColor(e.period) }}
+                style={{ ['--accent' as string]: eventColor(e) }}
               >
                 <span className="r-title">{e.title}</span>
                 <span className="r-date">{displayDate(e)}</span>
@@ -74,7 +76,7 @@ export function Sidebar({ scope, onScope, onPickEvent }: Props) {
                 <button className={`tree-item top ${scope === p.id ? 'active' : ''}`} onClick={() => onScope(p.id)}>
                   <span className="swatch" />
                   <span className="t-name">{p.name}</span>
-                  <span className="t-count">{eventsIn(p.id).length}</span>
+                  <span className="t-count">{eventsIn(p.id).filter((e) => !isReign(e)).length}</span>
                   <span className="t-range">{periodRange(p)}</span>
                 </button>
                 {open &&
@@ -85,7 +87,7 @@ export function Sidebar({ scope, onScope, onPickEvent }: Props) {
                       onClick={() => onScope(c.id)}
                     >
                       <span className="t-name">{c.name}</span>
-                      <span className="t-count">{eventsIn(c.id).length}</span>
+                      <span className="t-count">{eventsIn(c.id).filter((e) => !isReign(e)).length}</span>
                       <span className="t-range">{periodRange(c)}</span>
                     </button>
                   ))}

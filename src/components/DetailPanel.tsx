@@ -1,4 +1,15 @@
-import { displayDate, effectsOf, eventById, periodColor, periodPath, type HistEvent } from '../data/index.ts';
+import {
+  displayDate,
+  effectsOf,
+  eventById,
+  eventsDuring,
+  isReign,
+  eventColor,
+  periodPath,
+  reignsAt,
+  successorOf,
+  type HistEvent,
+} from '../data/index.ts';
 
 interface Props {
   eventId: string;
@@ -12,9 +23,11 @@ export function DetailPanel({ eventId, onPickEvent, onScope, onClose }: Props) {
   if (!e) return null;
   const causes = (e.causes ?? []).map((id) => eventById.get(id)!);
   const effects = (effectsOf.get(e.id) ?? []).map((id) => eventById.get(id)!);
+  const reign = isReign(e);
+  const next = successorOf.get(e.id);
 
   return (
-    <aside className="detail" style={{ ['--accent' as string]: periodColor(e.period) }}>
+    <aside className="detail" style={{ ['--accent' as string]: eventColor(e) }}>
       <button className="close" onClick={onClose} aria-label="Close">
         ×
       </button>
@@ -41,8 +54,23 @@ export function DetailPanel({ eventId, onPickEvent, onScope, onClose }: Props) {
       )}
       <p className="d-summary">{e.summary}</p>
 
-      <EventList title="Caused by" items={causes} empty="No recorded causes – a starting point." onPick={onPickEvent} />
-      <EventList title="Led to" items={effects} empty="No recorded effects yet." onPick={onPickEvent} />
+      {reign ? (
+        <>
+          <EventList title="Preceded by" items={e.succeeds ? [eventById.get(e.succeeds)!] : []} empty="First of the line." onPick={onPickEvent} />
+          <EventList title="Succeeded by" items={next ? [eventById.get(next)!] : []} empty="Last of the line." onPick={onPickEvent} />
+          <EventList title="During this reign" items={eventsDuring(e)} empty="No recorded events." onPick={onPickEvent} />
+          {causes.length > 0 && <EventList title="Caused by" items={causes} empty="" onPick={onPickEvent} />}
+          {effects.length > 0 && <EventList title="Led to" items={effects} empty="" onPick={onPickEvent} />}
+        </>
+      ) : (
+        <>
+          <EventList title="Caused by" items={causes} empty="No recorded causes – a starting point." onPick={onPickEvent} />
+          <EventList title="Led to" items={effects} empty="No recorded effects yet." onPick={onPickEvent} />
+          {reignsAt(e.year).length > 0 && (
+            <EventList title="Reign" items={reignsAt(e.year)} empty="" onPick={onPickEvent} />
+          )}
+        </>
+      )}
     </aside>
   );
 }
@@ -67,7 +95,7 @@ function EventList({
         <ul>
           {items.map((x) => (
             <li key={x.id}>
-              <button onClick={() => onPick(x.id)} style={{ ['--accent' as string]: periodColor(x.period) }}>
+              <button onClick={() => onPick(x.id)} style={{ ['--accent' as string]: eventColor(x) }}>
                 <span className="r-title">{x.title}</span>
                 <span className="r-date">{displayDate(x)}</span>
               </button>

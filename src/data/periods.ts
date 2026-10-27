@@ -61,16 +61,4 @@ export const periods: Period[] = [
   { id: 'portuguese', parent: 'colonial', name: 'Portuguese Era', start: 1505, end: 1658, summary: 'Kotte, Sitawaka, Kandy and the Portuguese.' },
   { id: 'dutch', parent: 'colonial', name: 'Dutch Era', start: 1658, end: 1796, summary: 'The VOC on the coasts; the Nayakkar kings in Kandy.' },
   { id: 'british', parent: 'colonial', name: 'British Era', start: 1796, end: 1948, summary: 'Crown colony, plantations, revival and the road to independence.' },
-
-  {
-    id: 'modern',
-    name: 'Modern Sri Lanka',
-    start: 1948,
-    end: 2026,
-    summary: 'Independence, ethnic conflict, civil war and its aftermath.',
-    color: '#c62828',
-  },
-  { id: 'dominion', parent: 'modern', name: 'Dominion of Ceylon', start: 1948, end: 1972, summary: 'Parliamentary democracy and the language question.' },
-  { id: 'republic-conflict', parent: 'modern', name: 'Republic & Civil War', start: 1972, end: 2009, summary: 'Two constitutions, two insurrections and a 26-year war.' },
-  { id: 'post-war', parent: 'modern', name: 'Post-war', start: 2009, end: 2026, summary: 'Reconstruction, debt and the 2022 crisis.' },
 ];

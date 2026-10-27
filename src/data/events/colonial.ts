@@ -224,7 +224,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Kirti Sri Rajasinha makes the Tooth Relic the centrepiece of the annual Kandy procession, joining it to the processions of the four guardian devales.',
-    causes: ['siyam-nikaya', 'tooth-relic'],
+    causes: ['siyam-nikaya'],
     tags: ['religious', 'cultural'],
   },
   {

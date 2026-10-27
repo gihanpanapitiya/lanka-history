@@ -280,6 +280,13 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.event-node.reign {
+  background: color-mix(in srgb, var(--accent) 9%, var(--panel));
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+.event-node.reign .crown {
+  color: var(--accent);
+}
 .event-node.ghost {
   border-style: dashed;
   border-left-style: dashed;
@@ -294,6 +301,33 @@ button {
 }
 .event-node.selected {
   box-shadow: 0 0 0 3px var(--accent);
+}
+
+/* Reign bands: background stripes behind the chronological layout. Clicks pass through to the pane. */
+.react-flow__node-band {
+  pointer-events: none !important;
+}
+.band-node {
+  border-top: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+  border-radius: 4px;
+  position: relative;
+}
+.band-node.odd {
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
+}
+.band-label {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.band-name {
+  font-weight: 600;
+  color: var(--accent);
+  margin-right: 6px;
 }
 
 /* Period nodes */
@@ -343,6 +377,10 @@ button {
 .react-flow__arrowhead path {
   stroke: var(--edge);
   fill: var(--edge);
+}
+.edge-succession .react-flow__edge-path {
+  stroke-width: 2.5;
+  stroke-opacity: 0.55;
 }
 .edge-ghost .react-flow__edge-path {
   stroke-dasharray: 5 4;

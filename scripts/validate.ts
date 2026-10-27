@@ -24,6 +24,15 @@ for (const e of events) {
     else if (cause.year > e.year) errors.push(`${e.id} (${e.year}) is caused by later event ${c} (${cause.year})`);
     if (c === e.id) errors.push(`${e.id}: causes itself`);
   }
+
+  if (e.succeeds) {
+    const prev = eventById.get(e.succeeds);
+    if (e.kind !== 'reign') errors.push(`${e.id}: only reigns can succeed another reign`);
+    if (!prev) errors.push(`${e.id}: unknown predecessor "${e.succeeds}"`);
+    else if (prev.kind !== 'reign') errors.push(`${e.id}: predecessor ${prev.id} is not a reign`);
+    else if (prev.year > e.year) errors.push(`${e.id} (${e.year}) succeeds later reign ${prev.id} (${prev.year})`);
+  }
+  if (e.endYear !== undefined && e.endYear < e.year) errors.push(`${e.id}: ends before it starts`);
 }
 
 for (const p of periods) {

@@ -25,9 +25,16 @@ export interface Period {
 
 export interface HistEvent {
   id: string;
+  /** 'reign' nodes form the line of rulers; omitted for ordinary events. */
+  kind?: 'reign';
+  /** Reigns only: id of the preceding reign. Drawn as a succession edge rather than a cause. */
+  succeeds?: string;
+  /** Reigns only: a foreign ruler who took the throne by invasion or usurpation. */
+  invader?: boolean;
   title: string;
-  /** Sort key and position on the timeline. */
+  /** Sort key and position on the timeline. For reigns, the year of accession. */
   year: Year;
+  /** For reigns, the last year of the reign. */
   endYear?: Year;
   /** Display override for the date, e.g. "c. 38,000 BP" or "traditional 543 BCE". */
   date?: string;

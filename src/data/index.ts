@@ -2,10 +2,10 @@ import type { HistEvent, Period } from './types.ts';
 import { periods } from './periods.ts';
 import { prehistoricEvents } from './events/prehistoric.ts';
 import { anuradhapuraEvents } from './events/anuradhapura.ts';
+import { anuradhapuraReigns } from './events/anuradhapura-kings.ts';
 import { polonnaruwaEvents } from './events/polonnaruwa.ts';
 import { transitionalEvents } from './events/transitional.ts';
 import { colonialEvents } from './events/colonial.ts';
-import { modernEvents } from './events/modern.ts';
 
 export type { HistEvent, Period, Tag, Year } from './types.ts';
 export { periods };
@@ -13,21 +13,27 @@ export { periods };
 const allEvents: HistEvent[] = [
   ...prehistoricEvents,
   ...anuradhapuraEvents,
+  ...anuradhapuraReigns,
   ...polonnaruwaEvents,
   ...transitionalEvents,
   ...colonialEvents,
-  ...modernEvents,
 ];
 
 export const eventById = new Map(allEvents.map((e) => [e.id, e]));
 
-/** Length of the longest cause chain leading to each event. */
+/** Causes plus, for reigns, the preceding reign. */
+export function predecessorsOf(e: HistEvent): string[] {
+  return e.succeeds ? [...(e.causes ?? []), e.succeeds] : e.causes ?? [];
+}
+
+/** Length of the longest cause (or succession) chain leading to each event. */
 const depth = new Map<string, number>();
 function depthOf(id: string, visiting = new Set<string>()): number {
   if (depth.has(id)) return depth.get(id)!;
   if (visiting.has(id)) return 0; // cycle; reported by the validator
   visiting.add(id);
-  const causes = (eventById.get(id)?.causes ?? []).filter((c) => eventById.has(c));
+  const e = eventById.get(id);
+  const causes = (e ? predecessorsOf(e) : []).filter((c) => eventById.has(c));
   const d = causes.length ? 1 + Math.max(...causes.map((c) => depthOf(c, visiting))) : 0;
   depth.set(id, d);
   return d;
@@ -56,6 +62,26 @@ for (const e of events) {
   }
 }
 
+export const isReign = (e: HistEvent) => e.kind === 'reign';
+
+/** Reigns in order of succession. */
+export const reigns: HistEvent[] = events.filter(isReign);
+
+/** Successor: the inverse of `succeeds`. */
+export const successorOf = new Map<string, string>();
+for (const r of reigns) if (r.succeeds) successorOf.set(r.succeeds, r.id);
+
+/** The reign(s) in progress in a given year. */
+export function reignsAt(year: number): HistEvent[] {
+  return reigns.filter((r) => r.year <= year && year <= (r.endYear ?? r.year));
+}
+
+/** Ordinary events that happened during a reign. */
+export function eventsDuring(reign: HistEvent): HistEvent[] {
+  const end = reign.endYear ?? reign.year;
+  return events.filter((e) => !isReign(e) && e.year >= reign.year && e.year <= end);
+}
+
 /** Chain from top-level period down to `id`. */
 export function periodPath(id: string): Period[] {
   const path: Period[] = [];
@@ -79,6 +105,12 @@ export function periodColor(periodId: string): string {
   const path = periodPath(periodId);
   for (let i = path.length - 1; i >= 0; i--) if (path[i].color) return path[i].color!;
   return '#888';
+}
+
+/** Accent colour for an event's node: invaders' reigns stand out in red, everything else takes its period's colour. */
+export const INVADER_COLOR = '#d32f2f';
+export function eventColor(e: HistEvent): string {
+  return e.invader ? INVADER_COLOR : periodColor(e.period);
 }
 
 export function eventsIn(periodId: string): HistEvent[] {

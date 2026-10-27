@@ -21,7 +21,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Pandukabhaya establishes a planned city at Anuradhapura, which remains the royal capital for some 1,400 years.',
-    causes: ['vijaya'],
     tags: ['political'],
   },
   {
@@ -32,35 +31,35 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Abhaya Wewa (Basawakkulama), attributed to Pandukabhaya, is among the first large tanks – the start of the hydraulic civilisation of the dry zone.',
-    causes: ['pandukabhaya'],
+    // causes: ['pandukabhaya'],
     tags: ['economic', 'environmental'],
   },
   {
     id: 'ashoka-missions',
     title: "Ashoka's Buddhist missions",
-    year: -250,
-    date: 'c. 250 BCE',
+    year: -307,
+    date: '307 BCE (traditional)',
     period: 'early-anuradhapura',
     summary:
-      'After the Third Buddhist Council, the Mauryan emperor Ashoka sends missionaries across Asia, including his son Mahinda to Lanka.',
+      'After the Third Buddhist Council, the Mauryan emperor Ashoka sends missionaries across Asia, including his son Mahinda to Lanka. Modern reckoning from Ashoka’s inscriptions puts this c. 250 BCE.',
     tags: ['external', 'religious'],
   },
   {
     id: 'mahinda',
-    title: 'Mahinda introduces Buddhism',
-    year: -247,
-    date: 'c. 247 BCE',
+    title: 'Mihindu Maha Rahath Thero introduces Buddhism',
+    year: -307,
+    date: '307 BCE (traditional)',
     period: 'early-anuradhapura',
     summary:
-      'Mahinda meets King Devanampiya Tissa at Mihintale; the king and court convert. Theravada Buddhism becomes the state religion.',
-    causes: ['ashoka-missions', 'pandukabhaya'],
+      'Mahinda meets King Devanampiya Tissa at Mihintale; the king and court convert. Theravada Buddhism becomes the state religion. Modern reckoning: c. 247 BCE.',
+    causes: ['ashoka-missions'],
     tags: ['religious', 'political'],
   },
   {
     id: 'mahavihara',
     title: 'Founding of the Mahavihara',
-    year: -246,
-    date: 'c. 246 BCE',
+    year: -306,
+    date: 'c. 306 BCE (traditional)',
     period: 'early-anuradhapura',
     summary:
       'Devanampiya Tissa grants the Mahamegha park to the Sangha; the Mahavihara becomes the centre of Theravada orthodoxy.',
@@ -68,10 +67,21 @@ export const anuradhapuraEvents: HistEvent[] = [
     tags: ['religious'],
   },
   {
+    id: 'thuparamaya',
+    title: 'Thuparamaya, the first stupa',
+    year: -306,
+    date: 'c. 306 BCE (traditional)',
+    period: 'early-anuradhapura',
+    summary:
+      'Devanampiya Tissa enshrines the Buddha’s collarbone relic in the Thuparamaya – the first stupa on the island and the model for later dagobas.',
+    causes: ['mahinda'],
+    tags: ['religious', 'cultural'],
+  },
+  {
     id: 'bodhi-tree',
-    title: 'Sanghamitta brings the Sri Maha Bodhi',
-    year: -245,
-    date: 'c. 3rd century BCE',
+    title: 'Sanghamitta Maha Rahath Theraniya brings the Sri Maha Bodhi',
+    year: -306,
+    date: 'c. 306 BCE (traditional)',
     period: 'early-anuradhapura',
     summary:
       'A sapling of the Bodhi tree at Bodh Gaya is planted in Anuradhapura; Sanghamitta also founds the order of nuns. The tree still stands.',
@@ -79,16 +89,48 @@ export const anuradhapuraEvents: HistEvent[] = [
     tags: ['religious'],
   },
   {
-    id: 'elara',
-    title: 'Elara rules Anuradhapura',
-    year: -205,
-    date: '205–161 BCE (traditional)',
+    id: 'tissa-wewa',
+    title: 'Tissa Wewa built',
+    year: -300,
+    date: 'c. 300 BCE (traditional)',
     period: 'early-anuradhapura',
     summary:
-      'Elara, a Chola from South India, seizes Anuradhapura and rules for 44 years – remembered even in Sinhalese chronicles as a just king.',
-    causes: ['pandukabhaya'],
-    tags: ['political', 'military'],
+      'Devanampiya Tissa adds Tissa Wewa to the city’s reservoirs, supplying the growing capital and its monasteries.',
+    // causes: ['early-tanks'],
+    tags: ['economic', 'environmental'],
   },
+  {
+    id: 'cave-hermitages',
+    title: 'Cave hermitages and Brahmi inscriptions',
+    year: -240,
+    date: 'c. 3rd–1st century BCE',
+    period: 'early-anuradhapura',
+    summary:
+      'Chiefs and householders cut drip-ledges into rock shelters and donate them to monks, recording the gifts in Brahmi – the earliest written Sinhala Prakrit and evidence of Buddhism spreading across the island.',
+    tags: ['religious', 'cultural', 'social'],
+  },
+  {
+    id: 'magama-kingdom',
+    title: 'Mahanaga founds the Ruhuna kingdom',
+    year: -290,
+    date: 'c. 290 BCE (traditional)',
+    period: 'early-anuradhapura',
+    summary:
+      'Mahanaga, brother of Devanampiya Tissa, flees a palace plot and establishes a sub-kingdom at Mahagama (Tissamaharama) in the south.',
+    // causes: ['pandukabhaya'],
+    tags: ['political'],
+  },
+  // {
+  //   id: 'viharamahadevi',
+  //   title: 'Viharamahadevi lands at Kirinda',
+  //   year: -200,
+  //   date: 'c. 200 BCE (legendary)',
+  //   period: 'early-anuradhapura',
+  //   summary:
+  //     'In the legend, King Kelani Tissa offers his daughter to the sea to end a flood; she drifts to Ruhuna and marries Kavantissa, becoming mother of Dutugemunu.',
+  //   // causes: ['magama-kingdom'],
+  //   tags: ['political', 'cultural'],
+  // },
   {
     id: 'ruhuna-rise',
     title: 'Rise of Ruhuna under Kavantissa',
@@ -97,7 +139,7 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'The southern principality of Ruhuna grows into a rival power centre, becoming the base for resistance against the rulers of Anuradhapura.',
-    causes: ['pandukabhaya'],
+    // causes: ['magama-kingdom'],
     tags: ['political'],
   },
   {
@@ -108,7 +150,7 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Marching from Ruhuna with monks in his army, Dutugemunu kills Elara in single combat and unites the island under one king.',
-    causes: ['elara', 'ruhuna-rise', 'mahavihara'],
+    causes: ['king-elara'],
     tags: ['military', 'political'],
   },
   {
@@ -132,8 +174,18 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'A revolt and an invasion by five South Indian chiefs force King Vattagamani Abhaya into 14 years of exile, during which the Brahmanatissa famine ravages the land.',
-    causes: ['dutugemunu'],
     tags: ['political', 'military'],
+  },
+  {
+    id: 'brahmanatissa-famine',
+    title: 'Brahmanatissa famine',
+    year: -102,
+    date: 'c. 103–89 BCE',
+    period: 'middle-anuradhapura',
+    summary:
+      'War and drought bring a famine remembered as the Beminitiya Saya; monasteries empty and monks flee to India, threatening the oral transmission of the teachings.',
+    causes: ['vattagamani-exile'],
+    tags: ['social', 'environmental'],
   },
   {
     id: 'abhayagiri',
@@ -143,7 +195,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'On regaining the throne, Vattagamani builds Abhayagiri and grants it to a monk who had helped him. It grows into a liberal, internationally connected rival to the Mahavihara.',
-    causes: ['vattagamani-exile', 'mahavihara'],
     tags: ['religious'],
   },
   {
@@ -154,7 +205,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Fearing war and famine would break the oral lineage, monks commit the Tripitaka and its commentaries to writing – the first time the Theravada canon is written.',
-    causes: ['vattagamani-exile', 'mahavihara'],
     tags: ['religious', 'cultural'],
   },
   {
@@ -165,8 +215,27 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Competing monastic fraternities vie for royal patronage for a thousand years, with Abhayagiri open to Mahayana ideas.',
-    causes: ['abhayagiri'],
     tags: ['religious'],
+  },
+  {
+    id: 'roman-trade',
+    title: 'Embassy to Rome and Indian Ocean trade',
+    year: 45,
+    date: 'c. 41–54 CE',
+    period: 'middle-anuradhapura',
+    summary:
+      'Pliny records envoys from Taprobane at the court of Claudius. Roman coins and Mediterranean goods reach ports such as Mantai, as Lanka becomes a hub of the monsoon trade.',
+    tags: ['external', 'economic'],
+  },
+  {
+    id: 'vetulya-suppression',
+    title: 'Suppression of the Vetulya doctrine',
+    year: 214,
+    date: '3rd century CE',
+    period: 'middle-anuradhapura',
+    summary:
+      'Voharika Tissa and later Gothabhaya suppress Mahayana (Vetulya) teachings at Abhayagiri and banish monks. The Indian monk Sanghamitta, sympathetic to them, becomes tutor to the young Mahasena.',
+    tags: ['religious', 'political'],
   },
   {
     id: 'mahasena',
@@ -176,7 +245,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Siding with the Abhayagiri faction, Mahasena demolishes Mahavihara buildings and raises Jetavanaramaya, then one of the tallest structures in the world.',
-    causes: ['monastic-schism'],
     tags: ['religious', 'political'],
   },
   {
@@ -187,7 +255,7 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Mahasena builds Minneriya and 15 other reservoirs, earning worship as a deity of the tanks.',
-    causes: ['early-tanks', 'mahasena'],
+    causes: ['mahasena'],
     tags: ['economic', 'environmental'],
   },
   {
@@ -198,8 +266,28 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Princess Hemamala and Prince Danta bring the Buddha’s tooth to Lanka in the reign of Sirimeghavanna. Possession of the relic becomes the symbol of the right to rule.',
-    causes: ['mahinda'],
     tags: ['religious', 'political'],
+  },
+  {
+    id: 'samudragupta-embassy',
+    title: 'Embassy to Samudragupta',
+    year: 330,
+    date: '4th century CE',
+    period: 'middle-anuradhapura',
+    summary:
+      'King Meghavanna sends gifts to the Gupta emperor Samudragupta and gains leave to build a monastery for Lankan pilgrims at Bodh Gaya.',
+    // causes: ['bodhi-tree'],
+    tags: ['external', 'religious'],
+  },
+  {
+    id: 'dipavamsa',
+    title: 'The Dipavamsa is compiled',
+    year: 350,
+    date: 'c. 4th century CE',
+    period: 'middle-anuradhapura',
+    summary:
+      'Monks compile the Island Chronicle, the oldest surviving Pali history of Lanka, from older Sinhala traditions.',
+    tags: ['cultural', 'religious'],
   },
   {
     id: 'faxian',
@@ -209,7 +297,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Faxian stays two years at Abhayagiri, records the Tooth Relic procession and carries Lankan texts back to China.',
-    causes: ['abhayagiri', 'tooth-relic'],
     tags: ['cultural', 'external'],
   },
   {
@@ -220,8 +307,28 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Working at the Mahavihara, the Indian scholar Buddhaghosa writes the Visuddhimagga and renders the Sinhala commentaries into Pali, fixing Theravada orthodoxy for South-East Asia too.',
-    causes: ['tripitaka-written', 'monastic-schism'],
     tags: ['religious', 'cultural'],
+  },
+  {
+    id: 'pandyan-interregnum',
+    title: 'Six Pandyan rulers in Anuradhapura',
+    year: 429,
+    date: 'c. 429–455 CE',
+    period: 'middle-anuradhapura',
+    summary:
+      'After a succession crisis, a series of Pandyan invaders rule Rajarata for some 27 years while Sinhalese resistance gathers in the countryside.',
+    tags: ['political', 'military', 'external'],
+  },
+  {
+    id: 'nuns-to-china',
+    title: 'Lankan nuns ordain nuns in China',
+    year: 433,
+    date: '429–434 CE',
+    period: 'middle-anuradhapura',
+    summary:
+      'Bhikkhunis led by Devasara sail to Nanjing and confer full ordination on Chinese nuns, carrying the lineage Sanghamitta founded to East Asia.',
+    // causes: [ 'faxian'],
+    tags: ['religious', 'external'],
   },
 
   // Late Anuradhapura
@@ -233,7 +340,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'After ending a period of Pandyan rule, Dhatusena builds Kalawewa and the 87 km Jaya Ganga canal feeding Anuradhapura.',
-    causes: ['minneriya'],
     tags: ['political', 'economic'],
   },
   {
@@ -266,19 +372,37 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'The monk Mahanama composes the Great Chronicle in Pali verse, from the Mahavihara perspective – the main source for the island’s early history.',
-    causes: ['buddhaghosa', 'monastic-schism'],
     tags: ['cultural', 'religious'],
   },
   {
-    id: 'manavamma',
-    title: 'Pallava-backed Manavamma takes the throne',
-    year: 684,
-    date: '684 CE',
+    id: 'cosmas',
+    title: 'Cosmas describes Taprobane',
+    year: 550,
+    date: 'c. 550 CE',
     period: 'late-anuradhapura',
     summary:
-      'Exiled prince Manavamma returns with Pallava troops. South Indian armies become a regular factor in Lankan succession struggles.',
-    causes: ['moggallana'],
+      'The Greek merchant Cosmas Indicopleustes describes Lanka as the meeting point of ships from China and from Persia and Axum, with a resident Persian Christian community.',
+    tags: ['external', 'economic'],
+  },
+  {
+    id: 'succession-wars',
+    title: 'Seventh-century succession wars',
+    year: 610,
+    date: '7th century CE',
+    period: 'late-anuradhapura',
+    summary:
+      'Rival claimants fight repeated wars for the throne, relying more and more on South Indian mercenaries and allies.',
     tags: ['political', 'military'],
+  },
+  {
+    id: 'polonnaruwa-seat',
+    title: 'Polonnaruwa becomes a royal residence',
+    year: 700,
+    date: 'c. 7th–8th century CE',
+    period: 'late-anuradhapura',
+    summary:
+      'Kings increasingly reside at Polonnaruwa, a better-defended site near the Mahaweli crossings and the great tanks, alongside Anuradhapura.',
+    tags: ['political'],
   },
   {
     id: 'mirror-wall',
@@ -288,8 +412,17 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Visitors to the abandoned Sigiriya leave hundreds of poems on its polished wall – the earliest substantial body of Sinhala poetry.',
-    causes: ['moggallana'],
     tags: ['cultural'],
+  },
+  {
+    id: 'vajrayana',
+    title: 'Esoteric Buddhism at Abhayagiri',
+    year: 742,
+    date: 'c. 8th century CE',
+    period: 'late-anuradhapura',
+    summary:
+      'The monk Amoghavajra visits Lanka to collect esoteric texts before taking them to Tang China; Abhayagiri becomes a centre of Mahayana and Vajrayana learning.',
+    tags: ['religious', 'external'],
   },
   {
     id: 'pandyan-sack',
@@ -299,7 +432,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Pandyan king Srimara Srivallabha invades, loots the treasury and carries off golden images.',
-    causes: ['manavamma'],
     tags: ['military'],
   },
   {
@@ -312,6 +444,36 @@ export const anuradhapuraEvents: HistEvent[] = [
       'Backing a Pandyan pretender, Sena II invades South India, sacks Madurai and recovers the looted treasures – binding Lanka into Pandyan politics.',
     causes: ['pandyan-sack'],
     tags: ['military', 'political'],
+  },
+  {
+    id: 'sinhala-literature',
+    title: 'Early Sinhala prose literature',
+    year: 914,
+    date: '10th century CE',
+    period: 'late-anuradhapura',
+    summary:
+      'Works such as the Dhampiya Atuva Gatapadaya, attributed to Kassapa V, mark the emergence of a literary Sinhala prose.',
+    tags: ['cultural'],
+  },
+  {
+    id: 'pandyan-regalia',
+    title: 'Pandyan king leaves his regalia in Lanka',
+    year: 920,
+    date: 'c. 920 CE',
+    period: 'late-anuradhapura',
+    summary:
+      'Defeated by the Chola Parantaka I despite Lankan help, the Pandyan king Rajasimha flees to Lanka and leaves his crown and regalia – which the Cholas will demand for a century.',
+    tags: ['political', 'external'],
+  },
+  {
+    id: 'parantaka-invasion',
+    title: 'Parantaka I invades Lanka',
+    year: 947,
+    date: 'c. 947–949 CE',
+    period: 'late-anuradhapura',
+    summary:
+      'A Chola army attacks to seize the Pandyan regalia; Udaya IV carries them to Ruhuna. Lankan forces later raid Chola territory in return.',
+    tags: ['military', 'external'],
   },
   {
     id: 'chola-rise',
@@ -331,7 +493,6 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Unpaid mercenaries revolt and the king abandons Anuradhapura for Ruhuna, leaving the north exposed.',
-    causes: ['madurai-raid'],
     tags: ['political', 'economic'],
   },
   {
@@ -342,7 +503,7 @@ export const anuradhapuraEvents: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'A Chola army takes Rajarata, sacks Anuradhapura and annexes the north as the province of Mummudi-sola-mandalam, with Polonnaruwa as its centre.',
-    causes: ['chola-rise', 'mercenary-revolt', 'madurai-raid'],
+    causes: ['chola-rise', 'mercenary-revolt'],
     tags: ['military', 'political'],
   },
 ];

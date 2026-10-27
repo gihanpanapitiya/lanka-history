@@ -1,17 +1,20 @@
 import { memo } from 'react';
 import { BaseEdge, EdgeLabelRenderer, Handle, Position, type EdgeProps, type Node, type NodeProps } from '@xyflow/react';
 import { displayDate, periodRange } from '../data/index.ts';
-import { EVENT_H, EVENT_W, PERIOD_H, PERIOD_W, type EventNodeData, type PeriodNodeData } from '../graph.ts';
+import { EVENT_H, EVENT_W, PERIOD_H, PERIOD_W, type BandNodeData, type EventNodeData, type PeriodNodeData } from '../graph.ts';
 
 export const EventNode = memo(function EventNode({ data }: NodeProps<Node<EventNodeData>>) {
   const { event, color, ghost, periodName, dimmed, highlighted, selected } = data;
-  const cls = ['event-node', ghost && 'ghost', dimmed && 'dimmed', highlighted && 'highlighted', selected && 'selected']
+  const cls = ['event-node', event.kind === 'reign' && 'reign', ghost && 'ghost', dimmed && 'dimmed', highlighted && 'highlighted', selected && 'selected']
     .filter(Boolean)
     .join(' ');
   return (
     <div className={cls} style={{ width: EVENT_W, height: EVENT_H, ['--accent' as string]: color }}>
       <Handle type="target" position={Position.Top} />
-      <div className="event-date">{displayDate(event)}</div>
+      <div className="event-date">
+        {event.kind === 'reign' && <span className="crown">♛ </span>}
+        {displayDate(event)}
+      </div>
       <div className="event-title">{event.title}</div>
       <div className="event-period">
         {ghost === 'cause' && '↑ from '}
@@ -44,6 +47,18 @@ export const PeriodNode = memo(function PeriodNode({ data }: NodeProps<Node<Peri
   );
 });
 
+export const BandNode = memo(function BandNode({ data }: NodeProps<Node<BandNodeData>>) {
+  const { label, date, color, odd, width, height } = data;
+  return (
+    <div className={`band-node ${odd ? 'odd' : ''}`} style={{ width, height, ['--accent' as string]: color }}>
+      <div className="band-label">
+        <span className="band-name">{label}</span>
+        {date && <span className="band-date">{date}</span>}
+      </div>
+    </div>
+  );
+});
+
 /** Arc drawn above the row of period cards, for links between non-adjacent periods. */
 export function ArcEdge({ id, sourceX, sourceY, targetX, targetY, label, style, markerEnd }: EdgeProps) {
   const h = Math.min(60 + Math.abs(targetX - sourceX) * 0.18, 260);
@@ -64,5 +79,5 @@ export function ArcEdge({ id, sourceX, sourceY, targetX, targetY, label, style, 
   );
 }
 
-export const nodeTypes = { event: EventNode, period: PeriodNode };
+export const nodeTypes = { event: EventNode, period: PeriodNode, band: BandNode };
 export const edgeTypes = { arc: ArcEdge };

@@ -50,3 +50,10 @@ Effects are derived automatically from `causes`. Run `npm run validate` after ed
 unknown ids, causes dated after their effects, and events outside their period's date range.
 
 Early dates follow the traditional Mahavamsa chronology and are approximate.
+
+## Deploying to GitHub Pages
+
+`.github/workflows/deploy.yml` validates, builds and publishes `dist/` on every push to `main`.
+One-time setup: in the repository's **Settings → Pages**, set **Source** to **GitHub Actions**.
+The site is then served at `https://<user>.github.io/<repo>/`; `base: './'` in `vite.config.ts`
+keeps asset paths relative so it works from that subpath.

@@ -21,7 +21,7 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'Successive Sinhalese princes hold out in the south and wage a long guerrilla war against the Chola garrisons.',
-    causes: ['chola-conquest', 'ruhuna-rise'],
+    causes: ['chola-conquest'],
     tags: ['military'],
   },
 
@@ -77,7 +77,7 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'The "Sea of Parakrama", linking older tanks into one vast reservoir, marks the peak of the dry-zone irrigation system.',
-    causes: ['parakramabahu-i', 'minneriya'],
+    causes: ['parakramabahu-i'],
     tags: ['economic', 'environmental'],
   },
   {
@@ -88,7 +88,7 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Parakramabahu purges and merges the rival fraternities, ending the Abhayagiri and Jetavana lineages.',
-    causes: ['parakramabahu-i', 'monastic-schism'],
+    causes: ['parakramabahu-i'],
     tags: ['religious'],
   },
   {

@@ -10,7 +10,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Vijayabahu III establishes a capital at Dambadeniya, away from Magha’s reach, and recovers the Tooth and Bowl relics hidden in Kotmale.',
-    causes: ['magha', 'dry-zone-collapse', 'tooth-relic'],
+    causes: ['magha', 'dry-zone-collapse'],
     tags: ['political'],
   },
   {
