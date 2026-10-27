@@ -213,7 +213,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Urged by Weliwita Saranankara, Kirti Sri Rajasinha brings Thai monks to restore the lapsed higher ordination, founding the Siyam Nikaya.',
-    causes: ['nayakkar', 'burmese-ordination'],
+    causes: ['nayakkar'],
     tags: ['religious'],
   },
   {

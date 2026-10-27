@@ -34,7 +34,6 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'After years of war, Vijayabahu takes Polonnaruwa and keeps it as his capital – further from South India than Anuradhapura.',
-    causes: ['ruhuna-resistance'],
     tags: ['military', 'political'],
   },
   {
@@ -45,7 +44,7 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'With the Sangha decimated under Chola rule, Vijayabahu invites monks from King Anawrahta of Burma to restore the higher ordination.',
-    causes: ['vijayabahu-i', 'chola-conquest'],
+    causes: ['vijayabahu-i'],
     tags: ['religious', 'external'],
   },
   {
@@ -66,7 +65,6 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Parakramabahu the Great wins the civil war and rules a centralised kingdom; the "not one drop of rain to reach the sea without serving man" maxim is attributed to him.',
-    causes: ['civil-war-1110'],
     tags: ['political', 'military'],
   },
   {
@@ -110,7 +108,6 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Through royal marriage alliances, the Kalinga prince Nissanka Malla takes the throne; his many inscriptions insist only Buddhists may rule.',
-    causes: ['parakramabahu-i'],
     tags: ['political'],
   },
   {
@@ -121,7 +118,6 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Over a dozen rulers in two decades; factions of the nobility and South Indian adventurers make and unmake kings.',
-    causes: ['kalinga-dynasty'],
     tags: ['political'],
   },
   {
@@ -132,7 +128,6 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Magha of Kalinga invades with a large army, persecutes the Sangha and rules harshly from Polonnaruwa for some 21 years.',
-    causes: ['instability-1196'],
     tags: ['military', 'political'],
   },
   {
@@ -143,7 +138,7 @@ export const polonnaruwaEvents: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'War, the breakdown of tank maintenance and probably malaria empty the Rajarata. The Sinhalese population and capitals drift to the wet south-west.',
-    causes: ['magha', 'parakrama-samudra'],
+    causes: ['magha'],
     tags: ['environmental', 'social', 'economic'],
   },
 ];
