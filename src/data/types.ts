@@ -41,6 +41,8 @@ export interface HistEvent {
   /** Id of the (leaf) period this event belongs to. */
   period: string;
   summary: string;
+  /** English Wikipedia article title, optionally with a "#Section" anchor. */
+  wiki?: string;
   /** Ids of events that caused or directly enabled this one. */
   causes?: string[];
   tags?: Tag[];

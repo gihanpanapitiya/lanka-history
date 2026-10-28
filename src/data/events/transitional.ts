@@ -10,6 +10,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Vijayabahu III establishes a capital at Dambadeniya, away from Magha’s reach, and recovers the Tooth and Bowl relics hidden in Kotmale.',
+    wiki: 'Kingdom of Dambadeniya',
     causes: ['magha', 'dry-zone-collapse'],
     tags: ['political'],
   },
@@ -21,6 +22,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'From Dambadeniya, Parakramabahu II’s armies defeat Magha and retake Rajarata, ending two decades of Kalinga rule. Some historians date Magha’s final expulsion as late as the 1250s.',
+    wiki: 'Parakramabahu II',
     causes: ['king-parakramabahu-ii', 'dambadeniya'],
     tags: ['military', 'political'],
   },
@@ -32,6 +34,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Chandrabhanu of Tambralinga (Malay Peninsula) invades twice seeking the Tooth Relic; Parakramabahu II and Pandyan forces repel him.',
+    wiki: 'Chandrabhanu',
     causes: ['dambadeniya'],
     tags: ['military', 'external'],
   },
@@ -42,6 +45,7 @@ export const transitionalEvents: HistEvent[] = [
     date: '1272',
     period: 'dambadeniya-kurunegala',
     summary: 'Bhuvanekabahu I moves the capital and the Tooth Relic to a fortified rock at Yapahuwa.',
+    wiki: 'Yapahuwa',
     tags: ['political', 'military'],
   },
   {
@@ -52,6 +56,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'A Pandyan army under Arya Chakravarti takes Yapahuwa and the relic; Parakramabahu III later recovers it through diplomacy.',
+    wiki: 'Bhuvanekabahu I',
     causes: ['yapahuwa'],
     tags: ['military', 'religious'],
   },
@@ -62,6 +67,7 @@ export const transitionalEvents: HistEvent[] = [
     date: '1293',
     period: 'dambadeniya-kurunegala',
     summary: 'After Yapahuwa’s fall, the court relocates again, to Kurunegala.',
+    wiki: 'Kurunegala',
     tags: ['political'],
   },
 
@@ -74,6 +80,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Bhuvanekabahu IV moves into the hill country. Real power increasingly lies with ministers such as the Alakeshvara family.',
+    wiki: 'Kingdom of Gampola',
     tags: ['political'],
   },
   {
@@ -84,6 +91,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       "The Moroccan traveller is received by the Aryacakravarti king of Jaffna and climbs Adam's Peak, describing a cosmopolitan Indian Ocean trading island.",
+    wiki: 'Ibn Battuta',
     tags: ['external', 'cultural'],
   },
   {
@@ -94,6 +102,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Minister Nissanka Alakeshvara builds a fortress at Kotte, near Colombo, and defeats the Jaffna army.',
+    wiki: 'House of Alakēśvara',
     tags: ['military'],
   },
   {
@@ -104,6 +113,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'The Ming admiral’s fleet clashes with Vira Alakeshvara and takes him captive to China. The Galle trilingual inscription (1409) records an earlier visit.',
+    wiki: 'Ming–Kotte War',
     tags: ['external', 'military'],
   },
   {
@@ -114,6 +124,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Filling the vacuum left by the Alakeshvaras, Parakramabahu VI makes Kotte the capital of the last king to rule the whole island.',
+    wiki: 'Parakramabahu VI',
     causes: ['zheng-he'],
     tags: ['political'],
   },
@@ -124,6 +135,7 @@ export const transitionalEvents: HistEvent[] = [
     date: 'c. 1450',
     period: 'gampola-kotte',
     summary: 'Kotte’s army takes Jaffna; for 17 years the island is united under one crown.',
+    wiki: 'Bhuvanekabahu VI',
     causes: ['parakramabahu-vi'],
     tags: ['military', 'political'],
   },
@@ -135,6 +147,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Monk-poets such as Sri Rahula and Vidagama Maitreya write the classic sandesha (messenger) poems under royal patronage.',
+    wiki: 'Sri Lankan literature',
     causes: ['parakramabahu-vi'],
     tags: ['cultural'],
   },
@@ -146,6 +159,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Succession struggles follow. Sapumal Kumaraya leaves Jaffna to seize Kotte, and Jaffna regains its independence.',
+    wiki: 'Kingdom of Kotte',
     causes: ['parakramabahu-vi', 'jaffna-conquered'],
     tags: ['political'],
   },
@@ -157,6 +171,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Senasammata Vikramabahu establishes an autonomous kingdom in the central highlands, with its capital at Senkadagala (Kandy).',
+    wiki: 'Kingdom of Kandy',
     causes: ['pbvi-death'],
     tags: ['political'],
   },
@@ -168,6 +183,7 @@ export const transitionalEvents: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'The Portuguese open the sea route around Africa, aiming to control the spice trade of the Indian Ocean.',
+    wiki: 'Vasco da Gama',
     tags: ['external', 'economic'],
   },
 ];

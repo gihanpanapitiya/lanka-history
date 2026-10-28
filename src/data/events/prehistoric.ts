@@ -9,6 +9,7 @@ export const prehistoricEvents: HistEvent[] = [
     period: 'stone-age',
     summary:
       'Fa-Hien Lena and Batadombalena caves preserve some of the earliest evidence of anatomically modern humans in South Asia, along with very early microlithic tools.',
+    wiki: 'Balangoda Man',
     tags: ['cultural'],
   },
   {
@@ -19,6 +20,7 @@ export const prehistoricEvents: HistEvent[] = [
     period: 'stone-age',
     summary:
       'Balangoda people develop specialised hunting of monkeys and squirrels in the wet-zone rainforest – among the oldest known rainforest adaptations anywhere.',
+    wiki: 'Fa Hien Cave',
     causes: ['balangoda-man'],
     tags: ['environmental', 'cultural'],
   },
@@ -30,6 +32,7 @@ export const prehistoricEvents: HistEvent[] = [
     period: 'stone-age',
     summary:
       "Post-glacial sea-level rise submerges the land link across the Palk Strait, leaving Adam's Bridge as a chain of shoals. Later contact with India is by sea.",
+    wiki: "Adam's Bridge",
     tags: ['environmental'],
   },
   {
@@ -40,6 +43,7 @@ export const prehistoricEvents: HistEvent[] = [
     period: 'iron-age',
     summary:
       'Excavations at the Anuradhapura citadel show an Early Iron Age settlement with iron working, rice cultivation, cattle and horses – centuries before the chronicled kings.',
+    wiki: 'Anuradhapura',
     causes: ['island-separated'],
     tags: ['economic', 'social'],
   },
@@ -51,6 +55,7 @@ export const prehistoricEvents: HistEvent[] = [
     period: 'iron-age',
     summary:
       'Cist and urn burials with black-and-red ware link the island to the South Indian megalithic culture.',
+    wiki: 'Ibbankatuwa Megalithic Tombs',
     causes: ['iron-age-anuradhapura'],
     tags: ['cultural'],
   },

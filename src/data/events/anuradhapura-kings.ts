@@ -14,6 +14,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Legendary first king, ruling from Tambapanni. He dies without an heir.',
+    wiki: 'Prince Vijaya',
     causes: ['vijaya'],
   },
   {
@@ -26,6 +27,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Vijaya’s chief minister governs from Upatissagama for a year while an heir is brought from India.',
+    wiki: 'Upatissa (regent)',
     succeeds: 'king-vijaya',
   },
   {
@@ -38,6 +40,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Vijaya’s nephew comes from India, marries the Sakyan princess Bhaddakaccana and continues the dynasty at Upatissagama.',
+    wiki: 'Panduvasdeva',
     succeeds: 'king-upatissa-regent',
   },
   {
@@ -50,6 +53,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Eldest son of Panduvasudeva; deposed by his brothers for protecting their nephew Pandukabhaya.',
+    wiki: 'Abhaya of Tambapanni',
     succeeds: 'king-panduvasudeva',
   },
   {
@@ -74,6 +78,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Defeats his uncles and reigns for some 70 years from his new capital at Anuradhapura.',
+    wiki: 'Pandukabhaya',
     succeeds: 'king-tissa-interregnum',
   },
   {
@@ -86,6 +91,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Son of Pandukabhaya. Lays out the Mahamegha garden – later granted to the Sangha – and fathers Devanampiya Tissa and his brothers.',
+    wiki: 'Mutasiva',
     succeeds: 'king-pandukabhaya',
   },
   {
@@ -98,6 +104,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Friend of Ashoka. Converts under Mahinda and founds the Mahavihara, the Thuparamaya and Tissa Wewa.',
+    wiki: 'Devanampiya Tissa',
     succeeds: 'king-mutasiva',
   },
   {
@@ -110,6 +117,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Brother of Devanampiya Tissa. Mahinda and Sanghamitta die during his reign.',
+    wiki: 'Uttiya',
     succeeds: 'king-devanampiya-tissa',
   },
   {
@@ -122,6 +130,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Brother and successor of Uttiya.',
+    wiki: 'Mahasiva',
     succeeds: 'king-uttiya',
   },
   {
@@ -134,6 +143,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Another son of Mutasiva; overthrown by Sena and Guttika.',
+    wiki: 'Suratissa',
     succeeds: 'king-mahasiva',
   },
   {
@@ -147,6 +157,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Two South Indian horse traders seize Anuradhapura and rule for 22 years – the first of many rulers from the mainland.',
+    wiki: 'Sena and Guttika',
     succeeds: 'king-suratissa',
   },
   {
@@ -159,6 +170,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'The last surviving son of Mutasiva retakes the throne, only to be overthrown by Elara.',
+    wiki: 'Asela of Anuradhapura',
     succeeds: 'king-sena-guttika',
   },
   {
@@ -172,6 +184,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'A Chola from South India who rules for 44 years – remembered even in the Sinhalese chronicles as a just king.',
+    wiki: 'Ellalan',
     succeeds: 'king-asela',
   },
   {
@@ -184,6 +197,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'early-anuradhapura',
     summary:
       'Unites the island under one king and builds the Ruwanwelisaya and Lovamahapaya; the hero of the Mahavamsa.',
+    wiki: 'Dutugamunu the Great',
     succeeds: 'king-elara',
     causes: ['dutugemunu'],
   },
@@ -199,6 +213,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Dutugemunu’s brother; completes the Ruwanwelisaya and rebuilds the Lovamahapaya after a fire.',
+    wiki: 'Saddha Tissa of Anuradhapura',
     succeeds: 'king-dutugemunu',
   },
   {
@@ -211,6 +226,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Younger son of Saddha Tissa; reigns about a month before his brother Lanja Tissa seizes the throne.',
+    wiki: 'Thulatthana',
     succeeds: 'king-saddha-tissa',
   },
   {
@@ -223,6 +239,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Takes the throne from his brother Thulathana.',
+    wiki: 'Lanja Tissa',
     succeeds: 'king-thulathana',
   },
   {
@@ -235,6 +252,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Brother of Lanja Tissa; killed in a palace coup by his general.',
+    wiki: 'Khallata Naga',
     succeeds: 'king-lanja-tissa',
   },
   {
@@ -247,6 +265,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Avenges his brother Khallata Naga but is driven out within months by a revolt and a South Indian invasion.',
+    wiki: 'Valagamba',
     succeeds: 'king-khallata-naga',
   },
   {
@@ -260,6 +279,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'First of the five South Indian chiefs who hold Anuradhapura after Vattagamani’s defeat.',
+    wiki: 'The Five Dravidians#Pulahatta',
     succeeds: 'king-vattagamani-1',
     causes: ['vattagamani-exile'],
   },
@@ -274,6 +294,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Pulahatta’s general; kills him and takes the throne.',
+    wiki: 'The Five Dravidians#Bahiya',
     succeeds: 'king-pulahatta',
   },
   {
@@ -287,6 +308,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Bahiya’s general; kills him and takes the throne.',
+    wiki: 'The Five Dravidians#Panya Mara',
     succeeds: 'king-bahiya',
   },
   {
@@ -300,6 +322,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Kills Panaya Mara and rules for seven months.',
+    wiki: 'The Five Dravidians#Pilaya Mara',
     succeeds: 'king-panaya-mara',
   },
   {
@@ -313,6 +336,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Last of the five chiefs; killed when Vattagamani returns.',
+    wiki: 'The Five Dravidians#Dathika',
     succeeds: 'king-pilaya-mara',
   },
   {
@@ -325,6 +349,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Retakes Anuradhapura, founds Abhayagiri, and sees the Pali Canon written down at Aluvihare.',
+    wiki: 'Valagamba',
     succeeds: 'king-dathika',
   },
   {
@@ -337,6 +362,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Khallata Naga, raised by Vattagamani; remembered for labouring in the fields to earn alms for monks.',
+    wiki: 'Mahakuli Mahatissa',
     succeeds: 'king-vattagamani-2',
   },
   {
@@ -349,6 +375,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Vattagamani; destroys monasteries that refused him shelter as a rebel, and is poisoned by his queen Anula.',
+    wiki: 'Chora Naga',
     succeeds: 'king-mahakuli-mahatissa',
   },
   {
@@ -361,6 +388,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Mahakuli Mahatissa; also poisoned by Anula.',
+    wiki: 'Kuda Tissa',
     succeeds: 'king-chora-naga',
   },
   {
@@ -373,6 +401,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Poisons a succession of consorts – Siva, Vatuka, Darubhatika Tissa and Niliya – and then rules in her own right: the first queen regnant in Lankan history.',
+    wiki: 'Anula of Anuradhapura',
     succeeds: 'king-kuda-tissa',
   },
   {
@@ -385,6 +414,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Mahakuli Mahatissa; returns from monastic life to overthrow Anula.',
+    wiki: 'Kutakanna Tissa',
     succeeds: 'king-anula',
   },
   {
@@ -397,6 +427,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Kutakanna Tissa; a devoted patron of the Ruwanwelisaya.',
+    wiki: 'Bhatika Abhaya',
     succeeds: 'king-kutakanna-tissa',
   },
   {
@@ -409,6 +440,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Brother of Bhatikabhaya; builds the Ambasthala dagoba at Mihintale.',
+    wiki: 'Mahadathika Mahanaga',
     succeeds: 'king-bhatikabhaya',
   },
   {
@@ -421,6 +453,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Mahadathika Mahanaga; known for a decree forbidding the killing of animals.',
+    wiki: 'Amandagamani Abhaya',
     succeeds: 'king-mahadathika-mahanaga',
   },
   {
@@ -433,6 +466,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Kills his brother Amandagamani to take the throne.',
+    wiki: 'Kanirajanu Tissa',
     succeeds: 'king-amandagamani',
   },
   {
@@ -445,6 +479,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Amandagamani.',
+    wiki: 'Chulabhaya',
     succeeds: 'king-kanirajanu-tissa',
   },
   {
@@ -457,6 +492,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Sister of Chulabhaya; rules for a few months before being deposed. An interregnum follows.',
+    wiki: 'Sivali of Anuradhapura',
     succeeds: 'king-chulabhaya',
   },
   {
@@ -469,6 +505,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Takes the throne after the interregnum; a revolt by the Lambakanna clan drives him out for three years before he returns with an army.',
+    wiki: 'Ilanaga',
     succeeds: 'king-sivali',
   },
   {
@@ -481,6 +518,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Ilanaga; killed by his brother Yasalalaka Tissa.',
+    wiki: 'Chandamukha',
     succeeds: 'king-ilanaga',
   },
   {
@@ -493,6 +531,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Swaps places with his look-alike gatekeeper Subha as a joke – and Subha has him killed and keeps the throne.',
+    wiki: 'Yassalalaka Tissa',
     succeeds: 'king-chandamukha-siva',
   },
   {
@@ -505,6 +544,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'The gatekeeper-king. His death at the hands of Vasabha ends the line traced back to Vijaya.',
+    wiki: 'Subharaja',
     succeeds: 'king-yasalalaka-tissa',
   },
   {
@@ -517,6 +557,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Founds the Lambakanna dynasty, which rules for some four centuries. He builds 11 tanks and 12 canals, scaling up irrigation.',
+    wiki: 'Vasabha',
     succeeds: 'king-subharaja',
   },
   {
@@ -529,6 +570,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Vasabha.',
+    wiki: 'Vankanasika Tissa',
     succeeds: 'king-vasabha',
   },
   {
@@ -541,6 +583,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Legend has him raid the Chola country to free Sinhalese captives. He is linked with bringing the cult of the goddess Pattini, and appears in the Tamil epic Silappatikaram.',
+    wiki: 'Gajabahu I',
     succeeds: 'king-vankanasika-tissa',
   },
   {
@@ -553,6 +596,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Father-in-law of Gajabahu, who left no son.',
+    wiki: 'Mahallaka Naga',
     succeeds: 'king-gajabahu',
   },
   {
@@ -565,6 +609,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Mahallaka Naga.',
+    wiki: 'Bhatika Tissa',
     succeeds: 'king-mahallaka-naga',
   },
   {
@@ -577,6 +622,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Brother of Bhatika Tissa; a generous builder at Abhayagiri and Mihintale.',
+    wiki: 'Kanittha Tissa',
     succeeds: 'king-bhatika-tissa',
   },
   {
@@ -589,6 +635,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Kanittha Tissa; killed by his brother Kuda Naga.',
+    wiki: 'Cula Naga',
     succeeds: 'king-kanittha-tissa',
   },
   {
@@ -601,6 +648,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Overthrown by his brother-in-law Siri Naga.',
+    wiki: 'Kuda Naga',
     succeeds: 'king-cula-naga',
   },
   {
@@ -613,6 +661,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Takes the throne from his brother-in-law Kuda Naga.',
+    wiki: 'Siri Naga I',
     succeeds: 'king-kuda-naga',
   },
   {
@@ -625,6 +674,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Named for his reform of the law (vohara); suppresses the Vetulya doctrine at Abhayagiri.',
+    wiki: 'Voharika Tissa',
     succeeds: 'king-siri-naga-i',
   },
   {
@@ -637,6 +687,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Brother of Voharika Tissa, whom he overthrows with South Indian help.',
+    wiki: 'Abhaya Naga',
     succeeds: 'king-voharika-tissa',
   },
   {
@@ -649,6 +700,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Voharika Tissa.',
+    wiki: 'Siri Naga II',
     succeeds: 'king-abhayanaga',
   },
   {
@@ -661,6 +713,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Siri Naga II; killed by three Lambakanna conspirators who then take the throne in turn.',
+    wiki: 'Vijaya Kumara',
     succeeds: 'king-siri-naga-ii',
   },
   {
@@ -673,6 +726,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'First of the three conspirators to reign; poisoned.',
+    wiki: 'Sangha Tissa I',
     succeeds: 'king-vijaya-kumara',
   },
   {
@@ -697,6 +751,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Expels Vetulya monks from Abhayagiri. The Indian monk Sanghamitta becomes tutor to his sons.',
+    wiki: 'Gothabhaya of Anuradhapura',
     succeeds: 'king-sri-sangha-bodhi',
   },
   {
@@ -709,6 +764,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Elder son of Gothabhaya and hostile to Sanghamitta, who leaves the island until Mahasena’s accession.',
+    wiki: 'Jettha Tissa I',
     succeeds: 'king-gothabhaya',
   },
   {
@@ -721,6 +777,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Builds Jetavanaramaya, Minneriya and many other tanks; sides with Abhayagiri against the Mahavihara.',
+    wiki: 'Mahasena of Anuradhapura',
     succeeds: 'king-jettha-tissa-i',
   },
   {
@@ -733,6 +790,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Mahasena; restores the Mahavihara. The Tooth Relic arrives from Kalinga in his reign.',
+    wiki: 'Sirimeghavanna',
     succeeds: 'king-mahasena',
   },
   {
@@ -745,6 +803,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Brother of Sirimeghavanna; remembered as a skilled carver of ivory.',
+    wiki: 'Jettha Tissa II',
     succeeds: 'king-sirimeghavanna',
   },
   {
@@ -757,6 +816,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Physician-king who writes the medical treatise Sarartha Sangraha and founds hospitals.',
+    wiki: 'Buddhadasa of Anuradhapura',
     succeeds: 'king-jettha-tissa-ii',
   },
   {
@@ -769,6 +829,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Buddhadasa; killed in a plot by his queen and his brother Mahanama.',
+    wiki: 'Upatissa I',
     succeeds: 'king-buddhadasa',
   },
   {
@@ -781,6 +842,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Faxian visits and Buddhaghosa works at the Mahavihara in his reign; sends an embassy to China.',
+    wiki: 'King Mahanama',
     succeeds: 'king-upatissa-i',
   },
   {
@@ -805,6 +867,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Sangha’s husband, a former royal umbrella-bearer; dies within a year.',
+    wiki: 'Chattagahaka Jantu',
     succeeds: 'king-sotthisena',
   },
   {
@@ -817,6 +880,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Killed by the Pandyan invader Pandu.',
+    wiki: 'Mittasena',
     succeeds: 'king-chattagahaka-jantu',
   },
   {
@@ -830,6 +894,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Pandyan invader who kills Mittasena and seizes Rajarata.',
+    wiki: 'The Six Dravidians#Pandu',
     succeeds: 'king-mittasena',
     causes: ['pandyan-interregnum'],
   },
@@ -844,6 +909,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Son of Pandu.',
+    wiki: 'The Six Dravidians#Parindu',
     succeeds: 'king-pandu',
   },
   {
@@ -857,6 +923,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Younger son of Pandu; Sinhalese resistance gathers under Dhatusena during his reign.',
+    wiki: 'The Six Dravidians#Khudda Parinda',
     succeeds: 'king-parinda',
   },
   {
@@ -870,6 +937,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Killed by Dhatusena after two months.',
+    wiki: 'The Six Dravidians#Tiritara',
     succeeds: 'king-khudda-parinda',
   },
   {
@@ -883,6 +951,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Killed by Dhatusena.',
+    wiki: 'The Six Dravidians#Dathiya',
     succeeds: 'king-tiritara',
   },
   {
@@ -896,6 +965,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'middle-anuradhapura',
     summary:
       'Last of the Pandyan rulers; killed by Dhatusena.',
+    wiki: 'The Six Dravidians#Pithiya',
     succeeds: 'king-dathiya',
   },
 
@@ -910,6 +980,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Founder of the Moriya dynasty and builder of Kalawewa. Deposed by his son Kashyapa and, in the chronicle, walled up alive.',
+    wiki: 'Dhatusena',
     succeeds: 'king-pithiya',
   },
   {
@@ -922,6 +993,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Seizes the throne from his father and rules from Sigiriya; dies in battle against his half-brother Moggallana.',
+    wiki: 'Kashyapa I',
     succeeds: 'king-dhatusena',
   },
   {
@@ -934,6 +1006,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Returns the capital to Anuradhapura and gives Sigiriya to the monks.',
+    wiki: 'Moggallana I',
     succeeds: 'king-kashyapa-i',
   },
   {
@@ -946,6 +1019,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Moggallana I. The Sanskrit epic Janakiharana is attributed to him, a sign of the court’s engagement with Indian literary culture.',
+    wiki: 'Kumara Dhatusena',
     succeeds: 'king-moggallana-i',
   },
   {
@@ -958,6 +1032,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Kumaradasa; killed within months by his uncle Sivaka.',
+    wiki: 'Kittisena',
     succeeds: 'king-kumaradasa',
   },
   {
@@ -982,6 +1057,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Overthrown by his son-in-law Silakala.',
+    wiki: 'Upatissa II',
     succeeds: 'king-sivaka',
   },
   {
@@ -994,6 +1070,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'A prince who had lived as a novice monk (Ambosamanera); takes the throne from Upatissa II.',
+    wiki: 'Silakala Ambasamanera',
     succeeds: 'king-upatissa-ii',
   },
   {
@@ -1006,6 +1083,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Silakala; dies in a duel with his brother Moggallana after a few months.',
+    wiki: 'Dathappabhuti',
     succeeds: 'king-silakala',
   },
   {
@@ -1018,6 +1096,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Defeats his brother and reigns for twenty years; remembered as a poet.',
+    wiki: 'Moggallana II',
     succeeds: 'king-dathappabhuti',
   },
   {
@@ -1054,6 +1133,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Nephew of Mahanaga; builds tanks and monasteries in a long, stable reign.',
+    wiki: 'Aggabodhi I',
     succeeds: 'king-mahanaga',
   },
   {
@@ -1066,6 +1146,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Nephew and son-in-law of Aggabodhi I.',
+    wiki: 'Aggabodhi II',
     succeeds: 'king-aggabodhi-i',
   },
   {
@@ -1078,6 +1159,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Brother of Aggabodhi II; overthrown within months by his general Moggallana.',
+    wiki: 'Sangha Tissa II',
     succeeds: 'king-aggabodhi-ii',
   },
   {
@@ -1090,6 +1172,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'A general who seizes the throne; overthrown by Silameghavanna.',
+    wiki: 'Moggallana III',
     succeeds: 'king-sangha-tissa-ii',
   },
   {
@@ -1102,6 +1185,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Another general who takes the throne by force.',
+    wiki: 'Silameghavanna',
     succeeds: 'king-moggallana-iii',
   },
   {
@@ -1114,6 +1198,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Silameghavanna; fights a long war for the throne with Jettha Tissa III, both sides hiring South Indian troops.',
+    wiki: 'Aggabodhi III',
     succeeds: 'king-silameghavanna',
   },
   {
@@ -1126,6 +1211,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'A general who takes the throne with Tamil support and strips monasteries to pay his soldiers.',
+    wiki: 'Dathopa Tissa I',
     succeeds: 'king-aggabodhi-iii',
   },
   {
@@ -1138,6 +1224,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Brother of Aggabodhi III; defeats Dathopa Tissa.',
+    wiki: 'Kassapa II',
     succeeds: 'king-dathopa-tissa-i',
   },
   {
@@ -1150,6 +1237,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'A prince from Ruhuna who briefly holds Anuradhapura.',
+    wiki: 'Dappula I',
     succeeds: 'king-kassapa-ii',
   },
   {
@@ -1162,6 +1250,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Retakes the throne with South Indian help.',
+    wiki: 'Dathopa Tissa II',
     succeeds: 'king-dappula-i',
   },
   {
@@ -1174,6 +1263,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Brother of Dathopa Tissa II. Tamil officers such as Potthakuttha grow powerful at his court.',
+    wiki: 'Aggabodhi IV',
     succeeds: 'king-dathopa-tissa-ii',
   },
   {
@@ -1198,6 +1288,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'A second puppet of Potthakuttha; overthrown by Manavamma.',
+    wiki: 'Unhanagara Hatthadatha',
     succeeds: 'king-datta',
   },
   {
@@ -1210,6 +1301,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Exiled prince who returns with Pallava troops. South Indian armies become a regular factor in Lankan succession struggles.',
+    wiki: 'Manavanna of Anuradhapura',
     succeeds: 'king-hatthadatha',
   },
   {
@@ -1222,6 +1314,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Manavamma.',
+    wiki: 'Aggabodhi V',
     succeeds: 'king-manavamma',
   },
   {
@@ -1234,6 +1327,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Brother of Aggabodhi V.',
+    wiki: 'Kassapa III',
     succeeds: 'king-aggabodhi-v',
   },
   {
@@ -1246,6 +1340,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Brother of Kassapa III.',
+    wiki: 'Mahinda I',
     succeeds: 'king-kassapa-iii',
   },
   {
@@ -1258,6 +1353,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Kassapa III; reigns for nearly forty years.',
+    wiki: 'Aggabodhi VI',
     succeeds: 'king-mahinda-i',
   },
   {
@@ -1270,6 +1366,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Aggabodhi VII',
     succeeds: 'king-aggabodhi-vi',
   },
   {
@@ -1282,6 +1379,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Wins the throne after a civil war; a lavish patron of monasteries.',
+    wiki: 'Mahinda II',
     succeeds: 'king-aggabodhi-vii',
   },
   {
@@ -1294,6 +1392,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Dappula II',
     succeeds: 'king-mahinda-ii',
   },
   {
@@ -1306,6 +1405,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Mahinda III',
     succeeds: 'king-udaya-i',
   },
   {
@@ -1318,6 +1418,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Aggabodhi VIII',
     succeeds: 'king-mahinda-iii',
   },
   {
@@ -1330,6 +1431,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Dappula III',
     succeeds: 'king-aggabodhi-viii',
   },
   {
@@ -1342,6 +1444,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Aggabodhi IX',
     succeeds: 'king-dappula-ii',
   },
   {
@@ -1354,6 +1457,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'The Pandyans invade and sack Anuradhapura during his reign.',
+    wiki: 'Sena I',
     succeeds: 'king-aggabodhi-ix',
   },
   {
@@ -1366,6 +1470,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Invades the Pandya country, sacks Madurai and recovers the looted treasures.',
+    wiki: 'Sena II',
     succeeds: 'king-sena-i',
   },
   {
@@ -1378,6 +1483,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Udaya I',
     succeeds: 'king-sena-ii',
   },
   {
@@ -1390,6 +1496,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Kassapa IV',
     succeeds: 'king-udaya-ii',
   },
   {
@@ -1402,6 +1509,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Scholar-king to whom the Dhampiya Atuva Gatapadaya is attributed; sends an army to aid the Pandyas against the Cholas.',
+    wiki: 'Kassapa V',
     succeeds: 'king-kassapa-iv',
   },
   {
@@ -1414,6 +1522,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Dappula IV',
     succeeds: 'king-kassapa-v',
   },
   {
@@ -1426,6 +1535,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'The defeated Pandyan king takes refuge in Lanka in his reign and leaves his regalia behind.',
+    wiki: 'Dappula V',
     succeeds: 'king-dappula-iii',
   },
   {
@@ -1438,6 +1548,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Udaya II',
     succeeds: 'king-dappula-iv',
   },
   {
@@ -1450,6 +1561,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Sena III',
     succeeds: 'king-udaya-iii',
   },
   {
@@ -1462,6 +1574,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Flees to Ruhuna with the Pandyan regalia when Parantaka I invades.',
+    wiki: 'Udaya III',
     succeeds: 'king-sena-iii',
   },
   {
@@ -1474,6 +1587,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Little is recorded of his reign.',
+    wiki: 'Sena IV',
     succeeds: 'king-udaya-iv',
   },
   {
@@ -1486,6 +1600,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Issues the Mihintale tablets, which regulate the monastery there and its hospital.',
+    wiki: 'Mahinda IV',
     succeeds: 'king-sena-iv',
   },
   {
@@ -1498,6 +1613,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Son of Mahinda IV; comes to the throne young.',
+    wiki: 'Sena V',
     succeeds: 'king-mahinda-iv',
   },
   {
@@ -1510,6 +1626,7 @@ export const anuradhapuraReigns: HistEvent[] = [
     period: 'late-anuradhapura',
     summary:
       'Last king of Anuradhapura. Flees a mercenary revolt to Ruhuna, where the Cholas capture him in 1017.',
+    wiki: 'Mahinda V',
     succeeds: 'king-sena-v',
   },
 ];

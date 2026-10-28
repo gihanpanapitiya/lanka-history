@@ -9,6 +9,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1505 (some sources 1506)',
     period: 'portuguese',
     summary: 'Lourenço de Almeida’s fleet, blown off course, lands at Colombo and makes contact with Kotte.',
+    wiki: 'Lourenço de Almeida',
     causes: ['vasco-da-gama'],
     tags: ['external', 'political'],
   },
@@ -19,6 +20,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1517–1518',
     period: 'portuguese',
     summary: 'The Portuguese build a fort at Colombo and secure cinnamon tribute from the king of Kotte.',
+    wiki: 'Portuguese Ceylon',
     tags: ['economic', 'military'],
   },
   {
@@ -29,6 +31,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Three princes kill their father Vijayabahu VI and divide his realm into Kotte, Sitawaka and Raigama.',
+    wiki: 'Vijayabā Kollaya',
     tags: ['political'],
   },
   {
@@ -39,6 +42,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Mayadunne of Sitawaka wages decades of war on Kotte and its Portuguese protectors, becoming the main anti-Portuguese power.',
+    wiki: 'Kingdom of Sitawaka',
     causes: ['vijayaba-kollaya', 'colombo-fort'],
     tags: ['military', 'political'],
   },
@@ -50,6 +54,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Bhuvanekabahu VII sends a golden effigy of his grandson Dharmapala to Lisbon to be crowned, buying Portuguese protection against Sitawaka.',
+    wiki: 'Portuguese Ceylon',
     causes: ['sitawaka'],
     tags: ['political'],
   },
@@ -61,6 +66,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'The baptism of the Kotte king alienates much of his Buddhist population, many of whom turn to Sitawaka.',
+    wiki: 'Dharmapala of Kotte',
     causes: ['kotte-protectorate'],
     tags: ['religious', 'political'],
   },
@@ -72,6 +78,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Mayadunne’s son Rajasinghe I, having annexed Kandy, besieges Portuguese Colombo for 21 months but fails to take it.',
+    wiki: 'Rajasinha I',
     causes: ['sitawaka', 'dharmapala-converts'],
     tags: ['military'],
   },
@@ -83,6 +90,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Childless Dharmapala wills his kingdom to the King of Portugal. On his death the Portuguese claim sovereignty over the lowlands.',
+    wiki: 'Portuguese Ceylon',
     causes: ['dharmapala-converts'],
     tags: ['political'],
   },
@@ -94,6 +102,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Vimaladharmasuriya I of Kandy destroys a Portuguese army trying to install Dona Catherina on the Kandyan throne, then marries her himself.',
+    wiki: 'Campaign of Danture',
     causes: ['rajasinghe-i'],
     tags: ['military'],
   },
@@ -104,6 +113,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1630',
     period: 'portuguese',
     summary: 'Kandyan forces annihilate a Portuguese army; Captain-General Constantino de Sá is killed.',
+    wiki: 'Battle of Randeniwela',
     causes: ['danture'],
     tags: ['military'],
   },
@@ -114,6 +124,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1602',
     period: 'portuguese',
     summary: 'The Dutch chartered company sets out to break the Portuguese hold on the spice trade.',
+    wiki: 'Dutch East India Company',
     tags: ['external', 'economic'],
   },
   {
@@ -124,6 +135,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Kandy and the VOC ally to expel the Portuguese; the Dutch are to be paid in cinnamon and are to hand back captured forts.',
+    wiki: 'Kandyan Treaty of 1638',
     causes: ['randeniwela'],
     tags: ['political', 'military'],
   },
@@ -134,6 +146,7 @@ export const colonialEvents: HistEvent[] = [
     date: 'Galle 1640, Colombo 1656',
     period: 'portuguese',
     summary: 'The Dutch take the main Portuguese forts after long sieges.',
+    wiki: 'Dutch–Portuguese War',
     causes: ['kandy-dutch-treaty'],
     tags: ['military'],
   },
@@ -144,6 +157,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1658',
     period: 'portuguese',
     summary: 'The last Portuguese stronghold falls to the Dutch.',
+    wiki: 'Dutch–Portuguese War',
     causes: ['dutch-take-colombo'],
     tags: ['military', 'political'],
   },
@@ -157,6 +171,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Claiming Kandy has not paid the costs of the war, the VOC keeps the captured territory. Kandy is left landlocked and hostile.',
+    wiki: 'Dutch Ceylon',
     causes: ['end-portuguese', 'kandy-dutch-treaty'],
     tags: ['political'],
   },
@@ -168,6 +183,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'The English sailor’s 19-year captivity yields "An Historical Relation of Ceylon", Europe’s main window into the Kandyan kingdom.',
+    wiki: 'Robert Knox (sailor)',
     causes: ['dutch-keep-coast'],
     tags: ['cultural', 'external'],
   },
@@ -179,6 +195,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Dutch administration brings Roman-Dutch civil law (still the basis of Sri Lankan common law) and codifies the Tamil customary law of Jaffna.',
+    wiki: 'Thesavalamai',
     tags: ['political', 'social'],
   },
   {
@@ -189,6 +206,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'King Vira Narendrasinha dies without a royal heir; the throne passes to his Madurai Nayak queen’s brother, Sri Vijaya Rajasinha.',
+    wiki: 'Madurai Nayak dynasty',
     tags: ['political'],
   },
   {
@@ -199,6 +217,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Urged by Weliwita Saranankara, Kirti Sri Rajasinha brings Thai monks to restore the lapsed higher ordination, founding the Siyam Nikaya.',
+    wiki: 'Siam Nikaya',
     causes: ['nayakkar'],
     tags: ['religious'],
   },
@@ -210,6 +229,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Kirti Sri Rajasinha makes the Tooth Relic the centrepiece of the annual Kandy procession, joining it to the processions of the four guardian devales.',
+    wiki: 'Kandy Esala Perahera',
     causes: ['siyam-nikaya'],
     tags: ['religious', 'cultural'],
   },
@@ -221,6 +241,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'The Dutch capture Kandy; the treaty gives them the whole coastline and cuts Kandy off from the sea entirely.',
+    wiki: 'Kandyan–Dutch war (1764–1766)',
     tags: ['military', 'political'],
   },
   {
@@ -231,6 +252,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'dutch',
     summary:
       'Revolutionary France occupies the Dutch Republic. The exiled Stadtholder’s Kew Letters ask Dutch colonies to admit British forces.',
+    wiki: 'Kew Letters',
     tags: ['external', 'political'],
   },
   {
@@ -240,6 +262,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1795–1796',
     period: 'dutch',
     summary: 'Trincomalee falls in 1795 and Colombo surrenders without a fight in 1796.',
+    wiki: 'Invasion of Ceylon',
     causes: ['kew-letters', 'treaty-1766'],
     tags: ['military', 'external'],
   },
@@ -252,6 +275,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1802',
     period: 'british',
     summary: 'The Treaty of Amiens confirms British possession; the coastal provinces become the Crown Colony of Ceylon.',
+    wiki: 'British Ceylon',
     causes: ['british-capture'],
     tags: ['political'],
   },
@@ -262,6 +286,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1803',
     period: 'british',
     summary: 'A British invasion of Kandy ends in disaster; the garrison left in the city is massacred.',
+    wiki: 'Anglo-Kandyan Wars#First war (1803–1805)',
     causes: ['crown-colony'],
     tags: ['military'],
   },
@@ -273,6 +298,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Sri Vikrama Rajasinha’s brutal execution of the family of the disgraced chief Ehelepola drives the nobility to seek British help.',
+    wiki: 'Ehelepola Nilame',
     tags: ['political'],
   },
   {
@@ -283,6 +309,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'With the chiefs’ support the British take Kandy almost unopposed. The Convention cedes the kingdom while promising to protect Buddhism.',
+    wiki: 'Kandyan Convention',
     causes: ['kandyan-nobles-revolt', 'first-kandyan-war'],
     tags: ['political'],
   },
@@ -294,6 +321,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'A great rebellion against British rule is crushed with a scorched-earth campaign; the Convention’s privileges for the chiefs are cut back.',
+    wiki: 'Great Rebellion of 1817–1818',
     causes: ['kandyan-convention'],
     tags: ['military', 'political'],
   },
@@ -305,6 +333,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'The island is unified under a single administration, rajakariya (compulsory service) is abolished, and Legislative and Executive Councils are created.',
+    wiki: 'Colebrooke–Cameron Commission',
     tags: ['political', 'economic'],
   },
   {
@@ -315,6 +344,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Baptist, Wesleyan, American and Church missionaries open English schools, creating a new Westernised elite.',
+    wiki: 'Christianity in Sri Lanka',
     causes: ['crown-colony'],
     tags: ['religious', 'social'],
   },
@@ -326,6 +356,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Land laws such as the Crown Lands Encroachment Ordinance (1840) open the highlands to British coffee estates.',
+    wiki: 'Coffee production in Sri Lanka',
     causes: ['colebrooke-cameron'],
     tags: ['economic'],
   },
@@ -337,6 +368,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Hundreds of thousands of workers are brought from South India to work the estates, forming the Malaiyaha (Hill Country) Tamil community.',
+    wiki: 'Indian Tamils of Sri Lanka',
     causes: ['coffee-boom'],
     tags: ['social', 'economic'],
   },
@@ -347,6 +379,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1848',
     period: 'british',
     summary: 'New taxes provoke an uprising led by Gongalegoda Banda and Puran Appu; it is suppressed under martial law.',
+    wiki: 'Matale rebellion',
     causes: ['coffee-boom'],
     tags: ['military', 'social'],
   },
@@ -357,6 +390,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1867',
     period: 'british',
     summary: 'Built to carry coffee to Colombo port, the railway transforms internal movement.',
+    wiki: 'Main Line (Sri Lanka)',
     causes: ['coffee-boom'],
     tags: ['economic'],
   },
@@ -367,6 +401,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1869–1880s',
     period: 'british',
     summary: 'The fungus Hemileia vastatrix wipes out the plantations within two decades.',
+    wiki: 'Hemileia vastatrix',
     causes: ['coffee-boom'],
     tags: ['economic', 'environmental'],
   },
@@ -378,6 +413,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Following James Taylor’s experiments at Loolecondera, planters switch to tea. Ceylon becomes one of the world’s largest tea exporters.',
+    wiki: 'Ceylon tea',
     causes: ['coffee-rust', 'indian-tamil-labour', 'railway'],
     tags: ['economic'],
   },
@@ -389,6 +425,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Migettuwatte Gunananda Thera’s public victory over Christian missionaries energises a Buddhist revival and draws international attention.',
+    wiki: 'Migettuwatte Gunananda Thera',
     tags: ['religious'],
   },
   {
@@ -399,6 +436,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Inspired by the debate, Henry Steel Olcott arrives, helps found the Buddhist Theosophical Society, Buddhist schools such as Ananda College, and the Buddhist flag.',
+    wiki: 'Henry Steel Olcott',
     causes: ['panadura-debate'],
     tags: ['religious', 'social'],
   },
@@ -410,6 +448,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Dharmapala fuses Buddhist revival with Sinhala national identity and the temperance movement.',
+    wiki: 'Anagarika Dharmapala',
     causes: ['olcott'],
     tags: ['religious', 'political'],
   },
@@ -421,6 +460,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Sinhalese–Muslim riots are met with heavy-handed martial law; the arrest of leaders such as D. S. Senanayake galvanises the elite.',
+    wiki: '1915 Sinhalese-Muslim riots',
     tags: ['social', 'political'],
   },
   {
@@ -430,6 +470,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1919',
     period: 'british',
     summary: 'Under Ponnambalam Arunachalam, Sinhalese and Tamil leaders unite to press for constitutional reform.',
+    wiki: 'Ceylon National Congress',
     causes: ['riots-1915'],
     tags: ['political'],
   },
@@ -441,6 +482,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Ceylon becomes the first Asian British colony with universal adult suffrage, including women, under a State Council.',
+    wiki: 'Donoughmore Constitution',
     causes: ['national-congress'],
     tags: ['political'],
   },
@@ -451,6 +493,7 @@ export const colonialEvents: HistEvent[] = [
     date: '1934–1935',
     period: 'british',
     summary: 'Drought and malaria kill some 80,000–100,000 people.',
+    wiki: '1934-35 malaria outbreak in Ceylon',
     tags: ['environmental', 'social'],
   },
   {
@@ -461,6 +504,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Young radicals whose Suriya-Mal relief work during the epidemic won them support form the first major left party.',
+    wiki: 'Lanka Sama Samaja Party',
     causes: ['malaria-1934', 'donoughmore'],
     tags: ['political'],
   },
@@ -472,6 +516,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Japanese carrier aircraft attack Colombo and Trincomalee. Ceylon becomes the headquarters of South East Asia Command, raising its strategic value.',
+    wiki: 'Air raid on Ceylon (5 April 1942)',
     tags: ['external', 'military'],
   },
   {
@@ -482,6 +527,7 @@ export const colonialEvents: HistEvent[] = [
     period: 'british',
     summary:
       'Rewarded for wartime cooperation, Ceylon’s leaders negotiate a Westminster-style constitution.',
+    wiki: 'Soulbury Commission',
     causes: ['ww2'],
     tags: ['political'],
   },
@@ -492,6 +538,7 @@ export const colonialEvents: HistEvent[] = [
     date: '15 August 1947',
     period: 'british',
     summary: 'The end of the Raj makes British rule over neighbouring Ceylon untenable.',
+    wiki: 'Indian independence movement',
     tags: ['external', 'political'],
   },
   {
@@ -501,6 +548,7 @@ export const colonialEvents: HistEvent[] = [
     date: '4 February 1948',
     period: 'british',
     summary: 'Ceylon gains independence peacefully with D. S. Senanayake as first Prime Minister.',
+    wiki: 'Dominion of Ceylon',
     causes: ['soulbury', 'indian-independence'],
     tags: ['political'],
   },

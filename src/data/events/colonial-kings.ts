@@ -14,6 +14,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'King of Kotte when the Portuguese build their first fort at Colombo; shares power with his brother Vijayabahu VI.',
+    wiki: 'Parakramabahu IX',
     succeeds: 'king-parakramabahu-viii',
   },
   {
@@ -26,6 +27,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Co-ruler and successor at Kotte; his sons kill him in the Vijayaba Kollaya and divide the kingdom between Kotte, Sitawaka and Raigama.',
+    wiki: 'Vijayabahu VI',
     succeeds: 'king-dharma-parakramabahu-ix',
   },
   {
@@ -38,6 +40,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Rules the rump of Kotte and turns to the Portuguese for protection against his brother Mayadunne of Sitawaka.',
+    wiki: 'Bhuvanaikabahu VII',
     succeeds: 'king-vijayabahu-vi',
   },
   {
@@ -50,6 +53,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Grandson of Bhuvanaikabahu VII; baptised a Catholic and a Portuguese puppet, he bequeaths Kotte to the King of Portugal.',
+    wiki: 'Dharmapala of Kotte',
     succeeds: 'king-bhuvanaikabahu-vii',
   },
   {
@@ -62,6 +66,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Konappu Bandara seizes Kandy, defeats the Portuguese at Danture and makes Kandy the seat of the Tooth Relic and of Sinhalese independence.',
+    wiki: 'Vimaladharmasuriya I',
     succeeds: 'king-dharmapala',
   },
   {
@@ -74,6 +79,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Former monk who marries Dona Catherina; holds Kandy against the Portuguese and wins at Randeniwela.',
+    wiki: 'Senarat',
     succeeds: 'king-vimaladharmasuriya-i',
   },
   {
@@ -86,6 +92,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'portuguese',
     summary:
       'Allies with the Dutch to drive out the Portuguese, then finds the Dutch keep the coast; holds Robert Knox captive.',
+    wiki: 'Rajasinha II',
     succeeds: 'king-senarat',
   },
   {
@@ -98,6 +105,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'dutch',
     summary:
       'A peaceful reign; brings monks from Arakan to restore the higher ordination and rebuilds the Temple of the Tooth.',
+    wiki: 'Vimaladharmasuriya II',
     succeeds: 'king-rajasinghe-ii',
   },
   {
@@ -110,6 +118,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'dutch',
     summary:
       'Last Sinhalese king of Kandy; his queens are from Madurai, and her brother succeeds him.',
+    wiki: 'Vira Narendra Sinha',
     succeeds: 'king-vimaladharmasuriya-ii',
   },
   {
@@ -122,6 +131,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'dutch',
     summary:
       'First of the Nayakkar kings, of Telugu origin from Madurai; a patron of Buddhism.',
+    wiki: 'Sri Vijaya Rajasinha',
     succeeds: 'king-vira-narendrasinha',
   },
   {
@@ -134,6 +144,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'dutch',
     summary:
       'Revives Buddhism with monks from Siam, founds the Siyam Nikaya and makes the Esala Perahera a festival of the Tooth; loses the coast to the Dutch in 1766.',
+    wiki: 'Kirti Sri Rajasinha',
     succeeds: 'king-sri-vijaya-rajasinha',
   },
   {
@@ -146,6 +157,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'dutch',
     summary:
       'Brother of Kirti Sri; a scholar and poet who watches the British replace the Dutch on the coast.',
+    wiki: 'Sri Rajadhi Rajasinha',
     succeeds: 'king-kirti-sri-rajasinha',
   },
   {
@@ -158,6 +170,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'Last king of Kandy. His harsh rule alienates the nobles, who help the British depose him; he dies in exile at Vellore.',
+    wiki: 'Sri Vikrama Rajasinha',
     succeeds: 'king-rajadhi-rajasinha',
   },
   {
@@ -171,6 +184,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'The Kandyan Convention vests the Kandyan kingdom in the British Crown; the whole island is under one foreign sovereign.',
+    wiki: 'George III',
     succeeds: 'king-sri-vikrama-rajasinha',
   },
   {
@@ -184,6 +198,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign; Ceylon is governed as a Crown Colony.',
+    wiki: 'George IV',
     succeeds: 'king-george-iii',
   },
   {
@@ -197,6 +212,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign during the Colebrooke–Cameron reforms.',
+    wiki: 'William IV',
     succeeds: 'king-george-iv',
   },
   {
@@ -210,6 +226,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign through the coffee boom and bust, the rise of tea and the Buddhist revival.',
+    wiki: 'Queen Victoria',
     succeeds: 'king-william-iv',
   },
   {
@@ -223,6 +240,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign.',
+    wiki: 'Edward VII',
     succeeds: 'king-victoria',
   },
   {
@@ -236,6 +254,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign through the 1915 riots, the Donoughmore Constitution and universal suffrage.',
+    wiki: 'George V',
     succeeds: 'king-edward-vii',
   },
   {
@@ -249,6 +268,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign for eleven months before abdicating.',
+    wiki: 'Edward VIII',
     succeeds: 'king-george-v',
   },
   {
@@ -262,6 +282,7 @@ export const colonialReigns: HistEvent[] = [
     period: 'british',
     summary:
       'British sovereign through the Second World War and Soulbury; remains King of Ceylon after independence in 1948.',
+    wiki: 'George VI',
     succeeds: 'king-edward-viii',
   },
 ];

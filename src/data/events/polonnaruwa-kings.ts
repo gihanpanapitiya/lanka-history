@@ -14,6 +14,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'Son of Mahinda V. Raised in hiding, he is proclaimed king in Ruhuna and gathers an army, but dies before he can march on the Cholas.',
+    wiki: 'Kassapa VI',
     succeeds: 'king-mahinda-v',
   },
   {
@@ -26,6 +27,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'Attacks the Chola garrisons, is defeated and takes his own life.',
+    wiki: 'Mahālāna-Kitti',
     succeeds: 'king-kassapa-vi',
   },
   {
@@ -38,6 +40,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'Son of Mahalanakitti; returns from exile in the Tulu country and rules from Kalutara until he is killed by Jagatipala.',
+    wiki: 'Vikkama Pandu',
     succeeds: 'king-mahalanakitti',
   },
   {
@@ -51,6 +54,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'A prince from Ayodhya in North India who kills Vikkamapandu and seizes Ruhuna; the Cholas kill him and carry off his queen.',
+    wiki: 'Jagatīpāla',
     succeeds: 'king-vikkamapandu',
   },
   {
@@ -75,6 +79,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'A general who rules Ruhuna from Kataragama and drives off a Chola attack.',
+    wiki: 'King Loka',
     succeeds: 'king-parakkamapandu',
   },
   {
@@ -87,6 +92,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'A general who holds Ruhuna for six months until he is defeated by the young prince Kitti, the future Vijayabahu I.',
+    wiki: 'Kassapa VII',
     succeeds: 'king-loka',
   },
   {
@@ -99,6 +105,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'chola-rule',
     summary:
       'Crowned in Ruhuna at seventeen, he spends fifteen years fighting the Cholas, takes Polonnaruwa in 1070 and restores the Sangha.',
+    wiki: 'Vijayabahu I',
     succeeds: 'king-kassapa-vii',
   },
   {
@@ -111,6 +118,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Vijayabahu’s brother; within a year he is pushed aside by Vijayabahu’s son Vikramabahu.',
+    wiki: 'Jayabahu I',
     succeeds: 'king-vijayabahu-i',
   },
   {
@@ -123,6 +131,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Holds Polonnaruwa and Rajarata while his kinsmen rule Dakkhinadesa and Ruhuna as rival principalities.',
+    wiki: 'Vikramabahu I',
     succeeds: 'king-jayabahu-i',
   },
   {
@@ -135,6 +144,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Son of Vikramabahu II; loses a long war to his cousin Parakramabahu and cedes Rajarata to him.',
+    wiki: 'Gajabahu II',
     succeeds: 'king-vikramabahu-ii',
   },
   {
@@ -147,6 +157,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Parakramabahu the Great: reunites the island, builds the Parakrama Samudra, unifies the Sangha and sends expeditions to Burma and South India.',
+    wiki: 'Parakramabahu I',
     succeeds: 'king-gajabahu-ii',
   },
   {
@@ -159,6 +170,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Parakramabahu’s nephew, a poet who corresponds with the king of Burma; murdered after a year by Mahinda VI.',
+    wiki: 'Vijayabahu II',
     succeeds: 'king-parakramabahu-i',
   },
   {
@@ -171,6 +183,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'A Kalinga noble who kills Vijayabahu II and rules for five days before Nissanka Malla kills him.',
+    wiki: 'Mahinda VI',
     succeeds: 'king-vijayabahu-ii',
   },
   {
@@ -183,6 +196,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Kalinga prince and the last strong king of Polonnaruwa; builds the Nissanka Lata Mandapaya and leaves inscriptions across the island.',
+    wiki: 'Nissanka Malla',
     succeeds: 'king-mahinda-vi',
   },
   {
@@ -195,6 +209,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Son of Nissanka Malla; killed by Vikramabahu III on the night he is crowned.',
+    wiki: 'Vira Bahu I',
     succeeds: 'king-nissanka-malla',
   },
   {
@@ -207,6 +222,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Nissanka Malla’s brother; killed after three months by his nephew Chodaganga.',
+    wiki: 'Vikramabahu II',
     succeeds: 'king-vira-bahu-i',
   },
   {
@@ -219,6 +235,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Nissanka Malla’s nephew; blinded and deposed by the general Kitti after nine months.',
+    wiki: 'Chodaganga of Polonnaruwa',
     succeeds: 'king-vikramabahu-iii',
   },
   {
@@ -231,6 +248,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Parakramabahu’s widow, placed on the throne by the general Kitti, who governs in her name.',
+    wiki: 'Queen Lilavati',
     succeeds: 'king-chodaganga',
   },
   {
@@ -243,6 +261,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Kalinga, brother of Nissanka Malla; deposed by the general Ayasmanta.',
+    wiki: 'Sahassa Malla',
     succeeds: 'king-lilavati-1',
   },
   {
@@ -255,6 +274,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Nissanka Malla’s queen; the general Ayasmanta rules in her name.',
+    wiki: 'Kalyanavati',
     succeeds: 'king-sahassa-malla',
   },
   {
@@ -267,6 +287,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'An infant king crowned by Ayasmanta; both are killed by Anikanga.',
+    wiki: 'Dharmasoka',
     succeeds: 'king-kalyanavati',
   },
   {
@@ -279,6 +300,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Seizes the throne and is killed seventeen days later by the general Camunakka.',
+    wiki: 'Anikanga',
     succeeds: 'king-dharmasoka',
   },
   {
@@ -291,6 +313,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Restored by Camunakka, then driven out by Lokesvara’s invasion.',
+    wiki: 'Queen Lilavati',
     succeeds: 'king-anikanga',
   },
   {
@@ -304,6 +327,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'A South Indian invader who lands with a Tamil army and holds Polonnaruwa for nine months.',
+    wiki: 'Lokissara',
     succeeds: 'king-lilavati-2',
   },
   {
@@ -316,6 +340,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Restored a third time by the general Parakkama; deposed by Parakrama Pandu.',
+    wiki: 'Queen Lilavati',
     succeeds: 'king-lokesvara',
   },
   {
@@ -329,6 +354,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'A Pandyan prince who invades, deposes Lilavati and rules until Kalinga Magha overthrows him.',
+    wiki: 'Parakrama Pandyan II',
     succeeds: 'king-lilavati-3',
   },
   {
@@ -342,6 +368,7 @@ export const polonnaruwaReigns: HistEvent[] = [
     period: 'polonnaruwa-kingdom',
     summary:
       'Invades from Kalinga with a large army, blinds Parakrama Pandu and rules Rajarata harshly; the Sinhalese court withdraws to Dambadeniya. Driven out by Parakramabahu II, c. 1236.',
+    wiki: 'Kalinga Magha',
     succeeds: 'king-parakrama-pandu-ii',
     causes: ['magha'],
   },

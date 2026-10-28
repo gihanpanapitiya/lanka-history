@@ -14,6 +14,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Rallies Sinhalese resistance in the hills of Mayarata, makes Dambadeniya his capital and brings the Tooth Relic out of hiding.',
+    wiki: 'Vijayabahu III',
     succeeds: 'king-kalinga-magha',
   },
   {
@@ -26,6 +27,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Scholar-king of Dambadeniya, called Kalikala Sahitya Sarvajna Pandita; drives Magha out of Polonnaruwa and repels Chandrabhanu.',
+    wiki: 'Parakramabahu II',
     succeeds: 'king-vijayabahu-iii',
   },
   {
@@ -38,6 +40,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Restores Polonnaruwa and is crowned there, but is murdered by his general Mitta after two years.',
+    wiki: 'Vijayabahu IV',
     succeeds: 'king-parakramabahu-ii',
   },
   {
@@ -50,6 +53,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Brother of Vijayabahu IV; moves the capital and the Tooth Relic to the rock fortress of Yapahuwa and sends an embassy to Mamluk Egypt.',
+    wiki: 'Bhuvanekabahu I',
     succeeds: 'king-vijayabahu-iv',
   },
   {
@@ -75,6 +79,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Rules as a Pandyan vassal from Polonnaruwa and recovers the Tooth Relic from Madurai through diplomacy.',
+    wiki: 'Parakramabahu III',
     succeeds: 'king-pandyan-occupation',
   },
   {
@@ -87,6 +92,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Son of Bhuvanaikabahu I; makes Kurunegala the capital.',
+    wiki: 'Bhuvanekabahu II',
     succeeds: 'king-parakramabahu-iii',
   },
   {
@@ -99,6 +105,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Kurunegala’s most notable king; patron of literature, under whom the Dalada Sirita on the Tooth Relic is written.',
+    wiki: 'Parakramabahu IV',
     succeeds: 'king-bhuvanaikabahu-ii',
   },
   {
@@ -111,6 +118,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Little is recorded of his reign at Kurunegala.',
+    wiki: 'Bhuvanekabahu III',
     succeeds: 'king-parakramabahu-iv',
   },
   {
@@ -123,6 +131,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'dambadeniya-kurunegala',
     summary:
       'Last king of Kurunegala.',
+    wiki: 'Vijayabahu V',
     succeeds: 'king-bhuvanaikabahu-iii',
   },
   {
@@ -135,6 +144,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Moves the capital to Gampola in the hills; the Gadaladeniya and Lankatilaka temples are built in his reign.',
+    wiki: 'Bhuvanekabahu IV',
     succeeds: 'king-vijayabahu-v',
   },
   {
@@ -147,6 +157,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Brother of Bhuvanaikabahu IV and co-ruler from Dedigama; later driven out by Vikramabahu III.',
+    wiki: 'Parakramabahu V',
     succeeds: 'king-bhuvanaikabahu-iv',
   },
   {
@@ -159,6 +170,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'King at Gampola while real power passes to the Alakeshvara ministers, who fortify Kotte against Jaffna.',
+    wiki: 'Vikramabahu III',
     succeeds: 'king-parakramabahu-v',
   },
   {
@@ -171,6 +183,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Nominal king for over thirty years; the Alakeshvaras govern from Kotte and Raigama.',
+    wiki: 'Bhuvanekabahu V',
     succeeds: 'king-vikramabahu-iii-gampola',
   },
   {
@@ -183,6 +196,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'An Alakeshvara kinsman who rules alongside the ageing Bhuvanaikabahu V.',
+    wiki: 'Virabahu Āpāna',
     succeeds: 'king-bhuvanaikabahu-v',
   },
   {
@@ -195,6 +209,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Last of the Alakeshvara strongmen; clashes with Zheng He’s Ming fleet and is carried off captive to China in 1411.',
+    wiki: 'House of Alakēśvara',
     succeeds: 'king-vira-bahu-ii',
   },
   {
@@ -207,6 +222,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Rules from Kotte for 55 years – the last king to unite the whole island under one crown.',
+    wiki: 'Parakramabahu VI',
     succeeds: 'king-vira-alakeshvara',
   },
   {
@@ -219,6 +235,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Grandson and heir of Parakramabahu VI; killed when Sapumal Kumaraya marches on Kotte from Jaffna.',
+    wiki: 'Jayabahu II',
     succeeds: 'king-parakramabahu-vi',
   },
   {
@@ -231,6 +248,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'The conqueror of Jaffna seizes Kotte and puts down a rebellion in the Four Korales.',
+    wiki: 'Bhuvanekabahu VI',
     succeeds: 'king-jayabahu-ii',
   },
   {
@@ -243,6 +261,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Son or adopted son of Bhuvanaikabahu VI; overthrown by his uncle Ambulugala Kumaraya.',
+    wiki: 'Parakramabahu VII',
     succeeds: 'king-bhuvanaikabahu-vi',
   },
   {
@@ -255,6 +274,7 @@ export const transitionalReigns: HistEvent[] = [
     period: 'gampola-kotte',
     summary:
       'Ambulugala Kumaraya, brother of Sapumal; still ruling Kotte when the Portuguese first land in 1505.',
+    wiki: 'Parakramabahu VIII',
     succeeds: 'king-parakramabahu-vii',
   },
 ];

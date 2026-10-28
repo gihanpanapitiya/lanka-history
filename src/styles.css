@@ -468,6 +468,15 @@ button {
   line-height: 1.55;
   font-size: 14.5px;
 }
+.d-wiki {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+}
+.d-wiki:hover {
+  text-decoration: underline;
+}
 .d-list h3 {
   font-size: 12px;
   text-transform: uppercase;

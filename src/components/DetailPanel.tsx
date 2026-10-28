@@ -53,6 +53,11 @@ export function DetailPanel({ eventId, onPickEvent, onScope, onClose }: Props) {
         </div>
       )}
       <p className="d-summary">{e.summary}</p>
+      {e.wiki && (
+        <a className="d-wiki" href={wikiUrl(e.wiki)} target="_blank" rel="noreferrer">
+          Read more on Wikipedia ↗
+        </a>
+      )}
 
       {reign ? (
         <>
@@ -73,6 +78,12 @@ export function DetailPanel({ eventId, onPickEvent, onScope, onClose }: Props) {
       )}
     </aside>
   );
+}
+
+function wikiUrl(title: string) {
+  const [page, section] = title.split('#');
+  const enc = (t: string) => encodeURIComponent(t.replace(/ /g, '_'));
+  return `https://en.wikipedia.org/wiki/${enc(page)}${section ? '#' + enc(section) : ''}`;
 }
 
 function EventList({
